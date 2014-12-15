@@ -10,4 +10,9 @@ LOT Label
 - First and last catalogue number and number of specimens shown
 
 
+Preview:
+---------
+
+![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/preview_lot.png)
+
 
