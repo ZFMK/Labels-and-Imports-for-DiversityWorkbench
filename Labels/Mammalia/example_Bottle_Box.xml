@@ -1,0 +1,1995 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="MAM_Bottle_Box_Etikett.xslt"?>
+<LabelPrint>
+<Report>
+<Title /> 
+<ProjectTitle>Test</ProjectTitle> 
+<User /> 
+<Date>10/7/2014</Date> 
+</Report>
+<LabelList>
+<Label>
+<Counter>1</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>223815246</CollectionSpecimenID> 
+<AccessionNumber>X 46983</AccessionNumber> 
+<OriginalNotes>Test for multiple GeoAnalysis</OriginalNotes> 
+<Version>2</Version> 
+<CollectionEventID>182126</CollectionEventID> 
+<OriginalNotes>Test for multiple GeoAnalysis</OriginalNotes> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>2/19/1988</CollectionDate> 
+<CollectionDay>19</CollectionDay> 
+<CollectionMonth>2</CollectionMonth> 
+<CollectionYear>1988</CollectionYear> 
+<LocalityDescription>Frankfurt/Oder,Ostquellbrauerei</LocalityDescription> 
+<CountryCache>Deutschland</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName> 
+<ParsingMethod>Coordinates</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>54.55</Location1> 
+<Location2>12.33</Location2> 
+<AverageLatitudeCache>52.33</AverageLatitudeCache> 
+<AverageLongitudeCache>14.55</AverageLongitudeCache> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, P.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>P.</FirstName> 
+<FirstNameAbbreviation>P.</FirstNameAbbreviation> 
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<TaxonomicGroup>mammal</TaxonomicGroup> 
+<LifeStage>adultus</LifeStage> 
+<Gender>male</Gender> 
+<Identifications>
+<Identification>
+<VernacularTerm>Großes Mausohr</VernacularTerm> 
+<TaxonomicName>Myotis myotis</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Myotis</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>myotis</SpeciesEpithet> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>2</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>100428137</CollectionSpecimenID> 
+<AccessionNumber>COL 3489134-s</AccessionNumber> 
+<AccessionDay>5</AccessionDay> 
+<AccessionMonth>6</AccessionMonth> 
+<AccessionYear>2013</AccessionYear> 
+<DepositorsName>Depositor, A.</DepositorsName> 
+<Version>10</Version> 
+<CollectionEventID>127106</CollectionEventID> 
+<AccessionDay>5</AccessionDay> 
+<AccessionMonth>6</AccessionMonth> 
+<AccessionYear>2013</AccessionYear> 
+<DepositorsName>Depositor, A.</DepositorsName> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>3/11/2014</CollectionDate> 
+<CollectionDay>11</CollectionDay> 
+<CollectionMonth>3</CollectionMonth> 
+<CollectionYear>2014</CollectionYear> 
+<CollectingMethod>Bodenfalle</CollectingMethod> 
+<CountryCache>Germany</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Altitude (mNN)</LocalisationSystemName> 
+<ParsingMethod>Altitude</ParsingMethod> 
+<MeasurementUnit>m NN</MeasurementUnit> 
+<Location1>215</Location1> 
+<Location2 /> 
+<AverageAltitudeCache>215</AverageAltitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Named area (DiversityGazetteer)</LocalisationSystemName> 
+<ParsingMethod>Gazetteer</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>Germany, North Rhine-Westphalia, Köln, Bonn</Location1> 
+<Location2 /> 
+<AverageLatitudeCache>50.7333</AverageLatitudeCache> 
+<AverageLongitudeCache>7.1</AverageLongitudeCache> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, A.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>A.</FirstName> 
+<FirstNameAbbreviation>A.</FirstNameAbbreviation> 
+</Agent>
+</Collector>
+<Collector>
+<CollectorsName>Collector, B.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>B.</FirstName> 
+<FirstNameAbbreviation>B.</FirstNameAbbreviation> 
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<TaxonomicGroup>insect</TaxonomicGroup> 
+<UnitDescription>1 Bein</UnitDescription> 
+<Identifications>
+<Identification>
+<TaxonomicName>Carabus granulatus</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Carabus</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>granulatus</SpeciesEpithet> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+<ResponsibleName>Determinator, J.</ResponsibleName> 
+<Agent>
+<SecondName>Determinator</SecondName> 
+<FirstName>J.</FirstName> 
+<FirstNameAbbreviation>J.</FirstNameAbbreviation> 
+</Agent>
+</Identification>
+</Identifications>
+<UnitAnalysis>
+<Analysis>
+<AnalysisName>Audio</AnalysisName> 
+<AnalysisNumber>1</AnalysisNumber> 
+</Analysis>
+</UnitAnalysis>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner /> 
+<CollectionName>ZFMK</CollectionName> 
+<MaterialCategory>specimen</MaterialCategory> 
+<StorageLocation>H123</StorageLocation> 
+</SpecimenPart>
+<SpecimenPart>
+<CollectionOwner /> 
+<CollectionName>ZFMK</CollectionName> 
+<MaterialCategory>preserved specimen</MaterialCategory> 
+<StorageLocation>Carabus granulatus</StorageLocation> 
+</SpecimenPart>
+</SpecimenParts>
+<Relations>
+<Relation>
+<RelatedSpecimenDisplayText>SMNK-00123</RelatedSpecimenDisplayText> 
+<RelationType>Specimen part</RelationType> 
+</Relation>
+</Relations>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>3</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>100428131</CollectionSpecimenID> 
+<AccessionNumber>HET 10002287</AccessionNumber> 
+<LabelTitle>Lot 2</LabelTitle> 
+<Version>3</Version> 
+<LabelTitle>Lot 2</LabelTitle> 
+</CollectionSpecimen>
+<Units>
+<MainUnit>
+<TaxonomicGroup>insect</TaxonomicGroup> 
+<Identifications>
+<Identification>
+<TaxonomicName>Musca domestica</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Musca</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>domestica</SpeciesEpithet> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>4</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>100428136</CollectionSpecimenID> 
+<AccessionNumber>HET 10002288</AccessionNumber> 
+<LabelTitle>Lot 2</LabelTitle> 
+<Version>3</Version> 
+<CollectionEventID>37251</CollectionEventID> 
+<LabelTitle>Lot 2</LabelTitle> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>5/12/2012</CollectionDate> 
+<CollectionDay>12</CollectionDay> 
+<CollectionMonth>5</CollectionMonth> 
+<CollectionYear>2012</CollectionYear> 
+</CollectionEvent>
+<Units>
+<MainUnit>
+<FamilyCache>Carabidae</FamilyCache> 
+<TaxonomicGroup>insect</TaxonomicGroup> 
+<Identifications>
+<Identification>
+<TaxonomicName>Carabus granulatus</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Carabus</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>granulatus</SpeciesEpithet> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>5</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>100428138</CollectionSpecimenID> 
+<AccessionNumber>HET 10002289</AccessionNumber> 
+<LabelTitle>Lot 2</LabelTitle> 
+<Version>3</Version> 
+<LabelTitle>Lot 2</LabelTitle> 
+</CollectionSpecimen>
+<Units>
+<MainUnit>
+<FamilyCache>Muscidae</FamilyCache> 
+<OrderCache>Diptera</OrderCache> 
+<TaxonomicGroup>insect</TaxonomicGroup> 
+<HierarchyCache>Diptera | Muscidae | Musca | Musca Domestica major</HierarchyCache> 
+<Identifications>
+<Identification>
+<TaxonomicName>Musca Domestica major De geer, 1776</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Musca</Genus> 
+<AuthorsGenus>Domestica</AuthorsGenus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>major</SpeciesEpithet> 
+<AuthorsSpecies>De</AuthorsSpecies> 
+<InfraspecificEpithet>geer,</InfraspecificEpithet> 
+<AuthorsInfraspecific>1776</AuthorsInfraspecific> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<Relations>
+<Relation>
+<RelatedSpecimenDisplayText>LMU123</RelatedSpecimenDisplayText> 
+</Relation>
+</Relations>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>6</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>100428141</CollectionSpecimenID> 
+<AccessionNumber>HET 10002290</AccessionNumber> 
+<LabelTitle>Lot 2</LabelTitle> 
+<Version>6</Version> 
+<CollectionEventID>37132</CollectionEventID> 
+<LabelTitle>Lot 2</LabelTitle> 
+<LabelTranscriptionState>complete</LabelTranscriptionState> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>9/13/2012</CollectionDate> 
+<CollectionDay>13</CollectionDay> 
+<CollectionMonth>9</CollectionMonth> 
+<CollectionYear>2012</CollectionYear> 
+<LocalityDescription>Rheinbach</LocalityDescription> 
+<CountryCache>Germany</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Altitude (mNN)</LocalisationSystemName> 
+<ParsingMethod>Altitude</ParsingMethod> 
+<MeasurementUnit>m NN</MeasurementUnit> 
+<Location1>190</Location1> 
+<Location2 /> 
+<LocationNotes>Source: ws.geonames.org (Shuttle Radar Topography Mission)</LocationNotes> 
+<AverageAltitudeCache>190</AverageAltitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName> 
+<ParsingMethod>Coordinates</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>6.9455</Location1> 
+<Location2>50.61945</Location2> 
+<LocationAccuracy>24 m</LocationAccuracy> 
+<LocationNotes>Derived from Google Maps</LocationNotes> 
+<AverageAltitudeCache>194</AverageAltitudeCache> 
+<AverageLatitudeCache>50.61945</AverageLatitudeCache> 
+<AverageLongitudeCache>6.94551</AverageLongitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Sampling plot</LocalisationSystemName> 
+<ParsingMethod>SamplingPlot</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>NRW</Location1> 
+<Location2 /> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, J.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>J.</FirstName> 
+<FirstNameAbbreviation>J.</FirstNameAbbreviation> 
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Nabidae</FamilyCache> 
+<OrderCache>Hemiptera</OrderCache> 
+<TaxonomicGroup>insect</TaxonomicGroup> 
+<LifeStage>adult</LifeStage> 
+<NumberOfUnits>1</NumberOfUnits> 
+<Identifications>
+<Identification>
+<IdentificationDay>19</IdentificationDay> 
+<IdentificationMonth>9</IdentificationMonth> 
+<IdentificationYear>2012</IdentificationYear> 
+<VernacularTerm>Baumsichelwanze</VernacularTerm> 
+<TaxonomicName>Himacerus apterus (Fabricius, 1798)</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Himacerus</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>apterus</SpeciesEpithet> 
+<AuthorsSpecies>(Fabricius, 1798)</AuthorsSpecies> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+<ResponsibleName>Determinator, B.</ResponsibleName> 
+<Agent>
+<SecondName>Determinator</SecondName> 
+<FirstName>B.</FirstName> 
+<FirstNameAbbreviation>B.</FirstNameAbbreviation> 
+</Agent>
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner /> 
+<AccessionNumber>100401743</AccessionNumber> 
+<CollectionName>DNA-Bank</CollectionName> 
+<MaterialCategory>DNA sample</MaterialCategory> 
+<StorageLocation>Room 207, Drawer 23</StorageLocation> 
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>7</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>10000737</CollectionSpecimenID> 
+<AccessionNumber>HOM 20001243</AccessionNumber> 
+<OriginalNotes>Tangi-Gharu</OriginalNotes> 
+<Version>6</Version> 
+<CollectionEventID>35880</CollectionEventID> 
+<OriginalNotes>Tangi-Gharu</OriginalNotes> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDateSupplement>21.8.1952</CollectionDateSupplement> 
+<CountryCache>Afghanistan</CountryCache> 
+</CollectionEvent>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, C.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>C.</FirstName> 
+<FirstNameAbbreviation>C.</FirstNameAbbreviation> 
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Achilidae</FamilyCache> 
+<TaxonomicGroup>insect</TaxonomicGroup> 
+<Identifications>
+<Identification>
+<TaxonomicName>Bombus (Triconibombus) imitator</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Bombus</Genus> 
+<AuthorsGenus>(Triconibombus)</AuthorsGenus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>imitator</SpeciesEpithet> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+<Identification>
+<TaxonomicName>Bombus 2</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Bombus</Genus> 
+<AuthorsGenus>2</AuthorsGenus> 
+<Rank>gen.</Rank> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner /> 
+<CollectionName /> 
+<MaterialCategory>preserved specimen</MaterialCategory> 
+<StorageLocation>Holotypus und Allotypus ACHILIDAE 10</StorageLocation> 
+</SpecimenPart>
+<SpecimenPart>
+<CollectionOwner /> 
+<CollectionName /> 
+<MaterialCategory>specimen</MaterialCategory> 
+<StorageLocation>Bombus (Triconibombus) imitator</StorageLocation> 
+</SpecimenPart>
+<SpecimenPart>
+<CollectionOwner /> 
+<CollectionName /> 
+<MaterialCategory>genitalia</MaterialCategory> 
+<StorageLocation>Bombus (Triconibombus) imitator</StorageLocation> 
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>8</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>223746247</CollectionSpecimenID> 
+<AccessionNumber>MAM 19130186-t</AccessionNumber> 
+<Version>2</Version> 
+<CollectionEventID>305356</CollectionEventID> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>3/17/1913</CollectionDate> 
+<CollectionDay>17</CollectionDay> 
+<CollectionMonth>3</CollectionMonth> 
+<CollectionYear>1913</CollectionYear> 
+<LocalityDescription>Taufikia (Bahr el Abiad), Nordafrika</LocalityDescription> 
+<CountryCache>South Sudan</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Altitude (mNN)</LocalisationSystemName> 
+<ParsingMethod>Altitude</ParsingMethod> 
+<MeasurementUnit>m NN</MeasurementUnit> 
+<Location1>399</Location1> 
+<Location2 /> 
+<LocationNotes>Source: ws.geonames.org (Shuttle Radar Topography Mission)</LocationNotes> 
+<AverageAltitudeCache>399</AverageAltitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Named area (DiversityGazetteer)</LocalisationSystemName> 
+<ParsingMethod>Gazetteer</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>Doleib Hill, SS.26, South Sudan</Location1> 
+<Location2 /> 
+<LocationAccuracy>38 m</LocationAccuracy> 
+<LocationNotes>Source: ws.geonames.org</LocationNotes> 
+<DistanceToLocation>436 m</DistanceToLocation> 
+<DirectionToLocation>SE</DirectionToLocation> 
+<AverageLatitudeCache>9.35921</AverageLatitudeCache> 
+<AverageLongitudeCache>31.60249</AverageLongitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName> 
+<ParsingMethod>Coordinates</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>11.4572</Location1> 
+<Location2>41.3561</Location2> 
+<LocationAccuracy>38 m</LocationAccuracy> 
+<LocationNotes>Derived from Google Maps</LocationNotes> 
+<AverageAltitudeCache>399</AverageAltitudeCache> 
+<AverageLatitudeCache>9.35617</AverageLatitudeCache> 
+<AverageLongitudeCache>31.60501</AverageLongitudeCache> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, A.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>A.</FirstName> 
+<FirstNameAbbreviation>A.</FirstNameAbbreviation> 
+</Agent>
+</Collector>
+<Collector>
+<CollectorsName>Collector, G.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>G.</FirstName> 
+<FirstNameAbbreviation>G.</FirstNameAbbreviation> 
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Emballonuridae</FamilyCache> 
+<OrderCache>Chiroptera</OrderCache> 
+<TaxonomicGroup>mammal</TaxonomicGroup> 
+<LifeStage>adult</LifeStage> 
+<Gender>female</Gender> 
+<NumberOfUnits>1</NumberOfUnits> 
+<Identifications>
+<Identification>
+<IdentificationDay>3</IdentificationDay> 
+<IdentificationMonth>5</IdentificationMonth> 
+<IdentificationYear>2013</IdentificationYear> 
+<TaxonomicName>Coleura afra (Peters, 1852)</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Coleura</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>afra</SpeciesEpithet> 
+<AuthorsSpecies>(Peters, 1852)</AuthorsSpecies> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+<ResponsibleName>Determinator, J.</ResponsibleName> 
+<Agent>
+<SecondName>Determinator</SecondName> 
+<FirstName>J.</FirstName> 
+<FirstNameAbbreviation>J.</FirstNameAbbreviation> 
+</Agent>
+</Identification>
+<Identification>
+<IdentificationDay>14</IdentificationDay> 
+<IdentificationMonth>3</IdentificationMonth> 
+<IdentificationYear>1913</IdentificationYear> 
+<IdentificationDateSupplement>14.III.1913</IdentificationDateSupplement> 
+<TaxonomicName>Coleura gallarum nilosa</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Coleura</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>gallarum</SpeciesEpithet> 
+<InfraspecificEpithet>nilosa</InfraspecificEpithet> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 1913-0186-t-sk</AccessionNumber> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>skull</MaterialCategory> 
+<StorageLocation>H323.001</StorageLocation> 
+</SpecimenPart>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 1913-0186-t-sk</AccessionNumber> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>pelt</MaterialCategory> 
+<StorageLocation>H323.001</StorageLocation> 
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>9</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>223746244</CollectionSpecimenID> 
+<AccessionNumber>MAM 19130189-t</AccessionNumber> 
+<AccessionYear>1913</AccessionYear> 
+<Version>2</Version> 
+<CollectionEventID>305353</CollectionEventID> 
+<AccessionYear>1913</AccessionYear> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>3/18/1913</CollectionDate> 
+<CollectionDay>18</CollectionDay> 
+<CollectionMonth>3</CollectionMonth> 
+<CollectionYear>1913</CollectionYear> 
+<LocalityDescription>Abu Doleb (Bahr el Abiad)</LocalityDescription> 
+<CountryCache>Sudan</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Coordinates</LocalisationSystemName> 
+<ParsingMethod>Coordinates</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>49.3591</Location1> 
+<Location2>12.6024</Location2> 
+<LocationNotes>http://geonames.nga.mil/ggmaz/</LocationNotes> 
+<AverageLatitudeCache>31.60249</AverageLatitudeCache> 
+<AverageLongitudeCache>9.35921</AverageLongitudeCache> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, G.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>G.</FirstName> 
+<FirstNameAbbreviation>G.</FirstNameAbbreviation> 
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Emballonuridae</FamilyCache> 
+<OrderCache>Chiroptera</OrderCache> 
+<TaxonomicGroup>mammal</TaxonomicGroup> 
+<Gender>female</Gender> 
+<Identifications>
+<Identification>
+<TaxonomicName>Taphozous mauritianus E. Geoffroy, 1818</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Taphozous</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>mauritianus</SpeciesEpithet> 
+<AuthorsSpecies>E. Geoffroy, 1818</AuthorsSpecies> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 1913-0189-t-s</AccessionNumber> 
+<CollectionName>H323.001</CollectionName> 
+<MaterialCategory>pelt</MaterialCategory> 
+<StorageLocation>H323.001</StorageLocation> 
+</SpecimenPart>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 1913-0171-sk</AccessionNumber> 
+<CollectionName>H323.001</CollectionName> 
+<MaterialCategory>skull</MaterialCategory> 
+<StorageLocation>H323.001</StorageLocation> 
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>10</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>223746248</CollectionSpecimenID> 
+<AccessionNumber>MAM 19130195-t</AccessionNumber> 
+<Version>2</Version> 
+<CollectionEventID>305357</CollectionEventID> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>3/17/1913</CollectionDate> 
+<CollectionDay>17</CollectionDay> 
+<CollectionMonth>3</CollectionMonth> 
+<CollectionYear>1913</CollectionYear> 
+<LocalityDescription>Taufikia (Bahr el Abiad), Nordafrika</LocalityDescription> 
+<CountryCache>South Sudan</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Altitude (mNN)</LocalisationSystemName> 
+<ParsingMethod>Altitude</ParsingMethod> 
+<MeasurementUnit>m NN</MeasurementUnit> 
+<Location1>399</Location1> 
+<Location2 /> 
+<LocationNotes>Source: ws.geonames.org (Shuttle Radar Topography Mission)</LocationNotes> 
+<AverageAltitudeCache>399</AverageAltitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Named area (DiversityGazetteer)</LocalisationSystemName> 
+<ParsingMethod>Gazetteer</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>Doleib Hill, SS.26, South Sudan</Location1> 
+<Location2 /> 
+<LocationAccuracy>38 m</LocationAccuracy> 
+<LocationNotes>Source: ws.geonames.org</LocationNotes> 
+<DistanceToLocation>436 m</DistanceToLocation> 
+<DirectionToLocation>SE</DirectionToLocation> 
+<AverageLatitudeCache>9.35921</AverageLatitudeCache> 
+<AverageLongitudeCache>31.60249</AverageLongitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName> 
+<ParsingMethod>Coordinates</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>21.605</Location1> 
+<Location2>47.3561</Location2> 
+<LocationAccuracy>38 m</LocationAccuracy> 
+<LocationNotes>Derived from Google Maps</LocationNotes> 
+<AverageAltitudeCache>399</AverageAltitudeCache> 
+<AverageLatitudeCache>9.35617</AverageLatitudeCache> 
+<AverageLongitudeCache>31.60501</AverageLongitudeCache> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, C.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>C.</FirstName> 
+<FirstNameAbbreviation>C.</FirstNameAbbreviation> 
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Emballonuridae</FamilyCache> 
+<OrderCache>Chiroptera</OrderCache> 
+<TaxonomicGroup>mammal</TaxonomicGroup> 
+<LifeStage>adult</LifeStage> 
+<Gender>male</Gender> 
+<NumberOfUnits>1</NumberOfUnits> 
+<Identifications>
+<Identification>
+<IdentificationDay>3</IdentificationDay> 
+<IdentificationMonth>5</IdentificationMonth> 
+<IdentificationYear>2013</IdentificationYear> 
+<TaxonomicName>Coleura afra (Peters, 1852)</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Coleura</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>afra</SpeciesEpithet> 
+<AuthorsSpecies>(Peters, 1852)</AuthorsSpecies> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+<ResponsibleName>Determinator, J.</ResponsibleName> 
+<Agent>
+<SecondName>Determinator</SecondName> 
+<FirstName>J.</FirstName> 
+<FirstNameAbbreviation>J.</FirstNameAbbreviation> 
+</Agent>
+</Identification>
+<Identification>
+<IdentificationDay>14</IdentificationDay> 
+<IdentificationMonth>3</IdentificationMonth> 
+<IdentificationYear>1913</IdentificationYear> 
+<IdentificationDateSupplement>14.III.1913</IdentificationDateSupplement> 
+<TaxonomicName>Coleura gallarum nilosa</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Coleura</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>gallarum</SpeciesEpithet> 
+<InfraspecificEpithet>nilosa</InfraspecificEpithet> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 1913-0195-t-s</AccessionNumber> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>pelt</MaterialCategory> 
+<StorageLocation>H323.001</StorageLocation> 
+</SpecimenPart>
+</SpecimenParts>
+<Relations>
+<Relation>
+<RelatedSpecimenDisplayText>MAM 1913-0186-t</RelatedSpecimenDisplayText> 
+<RelationType>Duplicate</RelationType> 
+</Relation>
+<Relation>
+<RelatedSpecimenDisplayText>NCBI:1234</RelatedSpecimenDisplayText> 
+</Relation>
+</Relations>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>11</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>223746251</CollectionSpecimenID> 
+<AccessionNumber>MAM 19360142-t</AccessionNumber> 
+<AccessionYear>1936</AccessionYear> 
+<Version>4</Version> 
+<CollectionEventID>305360</CollectionEventID> 
+<AccessionYear>1936</AccessionYear> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>3/8/1936</CollectionDate> 
+<CollectionDay>8</CollectionDay> 
+<CollectionMonth>3</CollectionMonth> 
+<CollectionYear>1936</CollectionYear> 
+<LocalityDescription>Rheinland-Pfalz, Donnersbergkreis, Alzey-Obermoschel, Obermoschel, Moschellandsberg, Moschelitmine "Grube Backofen"</LocalityDescription> 
+<Notes>approximate coordinate for "Backofen Mine"</Notes> 
+<CountryCache>Deutschland</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Altitude (mNN)</LocalisationSystemName> 
+<ParsingMethod>Altitude</ParsingMethod> 
+<MeasurementUnit>m NN</MeasurementUnit> 
+<Location1>275</Location1> 
+<Location2 /> 
+<LocationNotes>Source: ws.geonames.org (Shuttle Radar Topography Mission)</LocationNotes> 
+<AverageAltitudeCache>275</AverageAltitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Named area (DiversityGazetteer)</LocalisationSystemName> 
+<ParsingMethod>Gazetteer</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>Obermoschel, Rheinland-Pfalz, Germany</Location1> 
+<Location2 /> 
+<LocationAccuracy>3 m</LocationAccuracy> 
+<LocationNotes>Source: ws.geonames.org</LocationNotes> 
+<DistanceToLocation>571.4 m</DistanceToLocation> 
+<DirectionToLocation>SE</DirectionToLocation> 
+<AverageLatitudeCache>49.72797</AverageLatitudeCache> 
+<AverageLongitudeCache>7.77266</AverageLongitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName> 
+<ParsingMethod>Coordinates</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>17.7787</Location1> 
+<Location2>44.72468</Location2> 
+<LocationAccuracy>3 m</LocationAccuracy> 
+<LocationNotes>Derived from Google Maps</LocationNotes> 
+<AverageAltitudeCache>275</AverageAltitudeCache> 
+<AverageLatitudeCache>49.72468</AverageLatitudeCache> 
+<AverageLongitudeCache>7.77874</AverageLongitudeCache> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, T.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>T.</FirstName> 
+<FirstNameAbbreviation>T.</FirstNameAbbreviation> 
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Vespertilionidae</FamilyCache> 
+<OrderCache>Chiroptera</OrderCache> 
+<TaxonomicGroup>mammal</TaxonomicGroup> 
+<LifeStage>adult</LifeStage> 
+<Gender>male</Gender> 
+<Identifications>
+<Identification>
+<TaxonomicName>Myotis nattereri (Kuhl, 1817)</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Myotis</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>nattereri</SpeciesEpithet> 
+<AuthorsSpecies>(Kuhl, 1817)</AuthorsSpecies> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+<ResponsibleName>Determinator, H.</ResponsibleName> 
+<Agent>
+<SecondName>Determinator</SecondName> 
+<FirstName>H.</FirstName> 
+<FirstNameAbbreviation>H.</FirstNameAbbreviation> 
+</Agent>
+</Identification>
+</Identifications>
+</MainUnit>
+<Unit>
+<FamilyCache>Nyctaginaceae</FamilyCache> 
+<OrderCache>Caryophyllales</OrderCache> 
+<TaxonomicGroup>plant</TaxonomicGroup> 
+<RelationType>Part of</RelationType> 
+<UnitDescription>leaf</UnitDescription> 
+<Identifications>
+<Identification>
+<VernacularTerm>Bird-lime tree</VernacularTerm> 
+<TaxonomicName>Pisonia umbellifera</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Pisonia</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>umbellifera</SpeciesEpithet> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+</Unit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 2014-001</AccessionNumber> 
+<PartSublabel>on Tree</PartSublabel> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>tissue sample</MaterialCategory> 
+<StorageLocation>H 323.012</StorageLocation> 
+</SpecimenPart>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 1936-0142-t-s</AccessionNumber> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>pelt</MaterialCategory> 
+<StorageLocation>H 323.012</StorageLocation> 
+<Notes>HB=45mm, T=43mm, Ear=18mm, Wingspan=272mm; GLS=16mm</Notes> 
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>12</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>223746246</CollectionSpecimenID> 
+<AccessionNumber>MAM 19430029-t</AccessionNumber> 
+<Version>3</Version> 
+<CollectionEventID>305355</CollectionEventID> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>5/8/1942</CollectionDate> 
+<CollectionDay>8</CollectionDay> 
+<CollectionMonth>5</CollectionMonth> 
+<CollectionYear>1942</CollectionYear> 
+<LocalityDescription>Ukraine, Snamjanka</LocalityDescription> 
+</CollectionEvent>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, K.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>K.</FirstName> 
+<FirstNameAbbreviation>K.</FirstNameAbbreviation> 
+</Agent>
+<CollectorsNumber>8</CollectorsNumber> 
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Sciuridae</FamilyCache> 
+<OrderCache>Rodentia</OrderCache> 
+<TaxonomicGroup>mammal</TaxonomicGroup> 
+<Gender>female</Gender> 
+<Identifications>
+<Identification>
+<VernacularTerm>Speckled Ground Squirrel</VernacularTerm> 
+<TaxonomicName>Spermophilus suslicus (Güldenstaedt, 1770)</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Spermophilus</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>suslicus</SpeciesEpithet> 
+<AuthorsSpecies>(Güldenstaedt, 1770)</AuthorsSpecies> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+<UnitAnalysis>
+<Analysis>
+<AnalysisName>Head and Body</AnalysisName> 
+<AnalysisNumber>1</AnalysisNumber> 
+<AnalysisResult>23 cm</AnalysisResult> 
+</Analysis>
+<Analysis>
+<AnalysisName>Weight</AnalysisName> 
+<AnalysisNumber>1</AnalysisNumber> 
+<AnalysisResult>121g</AnalysisResult> 
+</Analysis>
+</UnitAnalysis>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 1943-0029-t-s</AccessionNumber> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>pelt</MaterialCategory> 
+<Notes>Weight= 121 g</Notes> 
+</SpecimenPart>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 1943-0029-t-sk</AccessionNumber> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>skull</MaterialCategory> 
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>13</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>223746245</CollectionSpecimenID> 
+<AccessionNumber>MAM 19540155-t</AccessionNumber> 
+<Version>2</Version> 
+<CollectionEventID>305354</CollectionEventID> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>12/1/1954</CollectionDate> 
+<CollectionDay>1</CollectionDay> 
+<CollectionMonth>12</CollectionMonth> 
+<CollectionYear>1954</CollectionYear> 
+<Notes>Datum: ded. 01.12.1954</Notes> 
+</CollectionEvent>
+<Units>
+<MainUnit>
+<FamilyCache>Canidae</FamilyCache> 
+<OrderCache>Carnivora</OrderCache> 
+<TaxonomicGroup>mammal</TaxonomicGroup> 
+<LifeStage>adult</LifeStage> 
+<Gender>female</Gender> 
+<Identifications>
+<Identification>
+<VernacularTerm>Bush Dog</VernacularTerm> 
+<TaxonomicName>Speothos venaticus (Lund, 1842)</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Speothos</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>venaticus</SpeciesEpithet> 
+<AuthorsSpecies>(Lund, 1842)</AuthorsSpecies> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 1954-0155-t-mt</AccessionNumber> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>pelt</MaterialCategory> 
+</SpecimenPart>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 1954-0155-t-sk</AccessionNumber> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>skull</MaterialCategory> 
+</SpecimenPart>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 1954-0155-t-sn</AccessionNumber> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>complete skeleton</MaterialCategory> 
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>14</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>223746249</CollectionSpecimenID> 
+<AccessionNumber>MAM 19790138-t</AccessionNumber> 
+<AccessionYear>1961</AccessionYear> 
+<DepositorsName>Depositor, H.</DepositorsName> 
+<DepositorsAccessionNumber>5196</DepositorsAccessionNumber> 
+<Version>2</Version> 
+<CollectionEventID>305358</CollectionEventID> 
+<AccessionYear>1961</AccessionYear> 
+<DepositorsName>Depositor, H.</DepositorsName> 
+<DepositorsAccessionNumber>5196</DepositorsAccessionNumber> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>4/29/1954</CollectionDate> 
+<CollectionDay>29</CollectionDay> 
+<CollectionMonth>4</CollectionMonth> 
+<CollectionYear>1954</CollectionYear> 
+<LocalityDescription>Kamerungebirge, Buea</LocalityDescription> 
+<HabitatDescription>Höhle bei Native town</HabitatDescription> 
+<Notes>Coordinate for Buea.</Notes> 
+<CountryCache>Cameroon</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Altitude (mNN)</LocalisationSystemName> 
+<ParsingMethod>Altitude</ParsingMethod> 
+<MeasurementUnit>m NN</MeasurementUnit> 
+<Location1>960</Location1> 
+<Location2 /> 
+<LocationNotes>Source: ws.geonames.org (Shuttle Radar Topography Mission)</LocationNotes> 
+<AverageAltitudeCache>960</AverageAltitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Named area (DiversityGazetteer)</LocalisationSystemName> 
+<ParsingMethod>Gazetteer</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>Buea, South-West Province, Cameroon</Location1> 
+<Location2 /> 
+<LocationAccuracy>1117.72 m</LocationAccuracy> 
+<LocationNotes>Source: ws.geonames.org</LocationNotes> 
+<DistanceToLocation>1117.72 m</DistanceToLocation> 
+<DirectionToLocation>W</DirectionToLocation> 
+<AverageLatitudeCache>4.15270</AverageLatitudeCache> 
+<AverageLongitudeCache>9.24100</AverageLongitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName> 
+<ParsingMethod>Coordinates</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>19.231</Location1> 
+<Location2>42.155</Location2> 
+<LocationAccuracy>10 m</LocationAccuracy> 
+<LocationNotes>Derived from Google Maps</LocationNotes> 
+<AverageAltitudeCache>960</AverageAltitudeCache> 
+<AverageLatitudeCache>4.15534</AverageLatitudeCache> 
+<AverageLongitudeCache>9.23128</AverageLongitudeCache> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, M.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>M.</FirstName> 
+<FirstNameAbbreviation>M.</FirstNameAbbreviation> 
+</Agent>
+<CollectorsNumber>506</CollectorsNumber> 
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Hipposideridae</FamilyCache> 
+<OrderCache>Chiroptera</OrderCache> 
+<TaxonomicGroup>mammal</TaxonomicGroup> 
+<Gender>female</Gender> 
+<Identifications>
+<Identification>
+<VernacularTerm>Cameroon Leaf-nosed Bat</VernacularTerm> 
+<TaxonomicName>Hipposideros camerunensis Eisentraut, 1956</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Hipposideros</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>camerunensis</SpeciesEpithet> 
+<AuthorsSpecies>Eisentraut, 1956</AuthorsSpecies> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+<TypeStatus>paratype</TypeStatus> 
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 1979-0138-t-sk</AccessionNumber> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>skull</MaterialCategory> 
+<StorageLocation>H 323.001</StorageLocation> 
+</SpecimenPart>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<AccessionNumber>MAM 1979-0138-t-s</AccessionNumber> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>pelt</MaterialCategory> 
+<StorageLocation>H 323.001</StorageLocation> 
+<Notes>HA=95mm, T=32mm, E=36mm, HF=18mm, Weight=48g</Notes> 
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>15</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>223849502</CollectionSpecimenID> 
+<AccessionNumber>MAM 20080222</AccessionNumber> 
+<Version>4</Version> 
+<CollectionEventID>363926</CollectionEventID> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionMonth>3</CollectionMonth> 
+<CollectionYear>2008</CollectionYear> 
+<LocalityDescription>Kamerun, Reg. Mamfe, Mukwecha/Amebisa</LocalityDescription> 
+<Notes>Dauer Expedition I.-III.2008</Notes> 
+<CountryCache>Cameroon</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Altitude (mNN)</LocalisationSystemName> 
+<ParsingMethod>Altitude</ParsingMethod> 
+<MeasurementUnit>m NN</MeasurementUnit> 
+<Location1>165</Location1> 
+<Location2 /> 
+<AverageAltitudeCache>165</AverageAltitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName> 
+<ParsingMethod>Coordinates</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>42.3349</Location1> 
+<Location2>15.538</Location2> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, M.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>M.</FirstName> 
+<FirstNameAbbreviation>M.</FirstNameAbbreviation> 
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Soricidae</FamilyCache> 
+<OrderCache>Soricomorpha</OrderCache> 
+<TaxonomicGroup>mammal</TaxonomicGroup> 
+<Gender>female</Gender> 
+<HierarchyCache>Soricomorpha | Soricidae | Crocidurinae | Sylvisorex | Sylvisorex johnstoni</HierarchyCache> 
+<Identifications>
+<Identification>
+<TaxonomicName>Sylvisorex johnstoni (Dobson, 1887)</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Sylvisorex</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>johnstoni</SpeciesEpithet> 
+<AuthorsSpecies>(Dobson, 1887)</AuthorsSpecies> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<PreparationMethod>ethanol</PreparationMethod> 
+<AccessionNumber>MAM 2008-0222-al</AccessionNumber> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>pelt</MaterialCategory> 
+<StorageLocation>Basement</StorageLocation> 
+<Notes>HB: 48 mm, T: 25 mm, HF: 8 mm, E: 5,5 mm; weight = g</Notes> 
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>16</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>223827813</CollectionSpecimenID> 
+<AccessionNumber>MAM 20120585</AccessionNumber> 
+<Version>3</Version> 
+<CollectionEventID>350199</CollectionEventID> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>9/16/2012</CollectionDate> 
+<CollectionDay>16</CollectionDay> 
+<CollectionMonth>9</CollectionMonth> 
+<CollectionYear>2012</CollectionYear> 
+<LocalityDescription>Gabun, Dep. Ivindo, Ivindo Nationalpark, Wald nahe Station Ipassa</LocalityDescription> 
+<CollectingMethod>Barberfalle</CollectingMethod> 
+<CountryCache>Gabon</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Altitude (mNN)</LocalisationSystemName> 
+<ParsingMethod>Altitude</ParsingMethod> 
+<MeasurementUnit>m NN</MeasurementUnit> 
+<Location1>518</Location1> 
+<Location2 /> 
+<AverageAltitudeCache>518</AverageAltitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName> 
+<ParsingMethod>Coordinates</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>22.4612</Location1> 
+<Location2>78.3044</Location2> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, R.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>R.</FirstName> 
+<FirstNameAbbreviation>R.</FirstNameAbbreviation> 
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Soricidae</FamilyCache> 
+<OrderCache>Soricomorpha</OrderCache> 
+<TaxonomicGroup>mammal</TaxonomicGroup> 
+<HierarchyCache>Soricomorpha | Soricidae | Crocidurinae | Sylvisorex | Sylvisorex johnstoni</HierarchyCache> 
+<Identifications>
+<Identification>
+<TaxonomicName>Sylvisorex johnstoni (Dobson, 1887)</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Sylvisorex</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>johnstoni</SpeciesEpithet> 
+<AuthorsSpecies>(Dobson, 1887)</AuthorsSpecies> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner>ZFMK</CollectionOwner> 
+<PreparationMethod>ethanol</PreparationMethod> 
+<AccessionNumber>MAM 2012-0585-al</AccessionNumber> 
+<CollectionName>Section Mammalia</CollectionName> 
+<MaterialCategory>pelt</MaterialCategory> 
+<StorageLocation>Basement</StorageLocation> 
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>17</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>100428130</CollectionSpecimenID> 
+<AccessionNumber>MYR 20120004</AccessionNumber> 
+<AccessionDateCategory>system</AccessionDateCategory> 
+<LabelTitle>Lot 1</LabelTitle> 
+<Version>4</Version> 
+<CollectionEventID>37250</CollectionEventID> 
+<AccessionDateCategory>system</AccessionDateCategory> 
+<LabelTitle>Lot 1</LabelTitle> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionMonth>11</CollectionMonth> 
+<CollectionYear>2012</CollectionYear> 
+<CollectionDateCategory>actual</CollectionDateCategory> 
+<LocalityDescription>Nordrhein-Westfalen, Neunkirchen, Hellerberg</LocalityDescription> 
+<HabitatDescription>Leichter SE Hang mit kurzen Eichen, Hasel und Birken</HabitatDescription> 
+<CollectingMethod>handcollecting</CollectingMethod> 
+<CountryCache>Deutschland</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Altitude (mNN)</LocalisationSystemName> 
+<ParsingMethod>Altitude</ParsingMethod> 
+<MeasurementUnit>m NN</MeasurementUnit> 
+<Location1>327</Location1> 
+<Location2 /> 
+<DeterminationDate>9/11/2012 12:00:00 AM</DeterminationDate> 
+<AverageAltitudeCache>327</AverageAltitudeCache> 
+<RecordingMethod>Google Earth</RecordingMethod> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Named area (DiversityGazetteer)</LocalisationSystemName> 
+<ParsingMethod>Gazetteer</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>Altenseelbach, North Rhine-Westphalia, Germany</Location1> 
+<Location2 /> 
+<LocationAccuracy>96 m</LocationAccuracy> 
+<LocationNotes>Source: ws.geonames.org</LocationNotes> 
+<DistanceToLocation>850.05 m</DistanceToLocation> 
+<DirectionToLocation>E</DirectionToLocation> 
+<AverageLatitudeCache>50.77923</AverageLatitudeCache> 
+<AverageLongitudeCache>7.99592</AverageLongitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName> 
+<ParsingMethod>Coordinates</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>8.008</Location1> 
+<Location2>50.7794</Location2> 
+<LocationAccuracy>96 m</LocationAccuracy> 
+<DeterminationDate>6/6/2013 12:00:00 AM</DeterminationDate> 
+<AverageAltitudeCache>324</AverageAltitudeCache> 
+<AverageLatitudeCache>50.77950</AverageLatitudeCache> 
+<AverageLongitudeCache>8.00800</AverageLongitudeCache> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, S.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>S.</FirstName> 
+<FirstNameAbbreviation>S.</FirstNameAbbreviation> 
+</Agent>
+<CollectorsNumber>1743</CollectorsNumber> 
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Julidae</FamilyCache> 
+<OrderCache>Diplopoda</OrderCache> 
+<TaxonomicGroup>arthropod</TaxonomicGroup> 
+<LifeStage>adult</LifeStage> 
+<Gender>Male</Gender> 
+<NumberOfUnits>1</NumberOfUnits> 
+<UnitIdentifier>Cylindroiulus punctatus</UnitIdentifier> 
+<Circumstances>natural</Circumstances> 
+<Identifications>
+<Identification>
+<VernacularTerm>Gepunkteter Schnurfüsser</VernacularTerm> 
+<TaxonomicName>Cylindroiulus punctatus</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Cylindroiulus</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>punctatus</SpeciesEpithet> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+<ResponsibleName>Depositor, K.</ResponsibleName> 
+<Agent>
+<SecondName>Depositor</SecondName> 
+<FirstName>K.</FirstName> 
+<FirstNameAbbreviation>K.</FirstNameAbbreviation> 
+</Agent>
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner /> 
+<CollectionName>Section Myriapoda</CollectionName> 
+<MaterialCategory>specimen</MaterialCategory> 
+<StorageLocation>arthropod</StorageLocation> 
+<Stock>1</Stock> 
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>18</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>223852693</CollectionSpecimenID> 
+<AccessionNumber>MYR 20120005</AccessionNumber> 
+<AccessionDateCategory>system</AccessionDateCategory> 
+<LabelTitle>Lot 1</LabelTitle> 
+<Version>1</Version> 
+<CollectionEventID>37250</CollectionEventID> 
+<AccessionDateCategory>system</AccessionDateCategory> 
+<LabelTitle>Lot 1</LabelTitle> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionMonth>11</CollectionMonth> 
+<CollectionYear>2012</CollectionYear> 
+<CollectionDateCategory>actual</CollectionDateCategory> 
+<LocalityDescription>Nordrhein-Westfalen, Neunkirchen, Hellerberg</LocalityDescription> 
+<HabitatDescription>Leichter SE Hang mit kurzen Eichen, Hasel und Birken</HabitatDescription> 
+<CollectingMethod>handcollecting</CollectingMethod> 
+<CountryCache>Deutschland</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Altitude (mNN)</LocalisationSystemName> 
+<ParsingMethod>Altitude</ParsingMethod> 
+<MeasurementUnit>m NN</MeasurementUnit> 
+<Location1>327</Location1> 
+<Location2 /> 
+<DeterminationDate>9/11/2012 12:00:00 AM</DeterminationDate> 
+<AverageAltitudeCache>327</AverageAltitudeCache> 
+<RecordingMethod>Google Earth</RecordingMethod> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Named area (DiversityGazetteer)</LocalisationSystemName> 
+<ParsingMethod>Gazetteer</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>Altenseelbach, North Rhine-Westphalia, Germany</Location1> 
+<Location2 /> 
+<LocationAccuracy>96 m</LocationAccuracy> 
+<LocationNotes>Source: ws.geonames.org</LocationNotes> 
+<DistanceToLocation>850.05 m</DistanceToLocation> 
+<DirectionToLocation>E</DirectionToLocation> 
+<AverageLatitudeCache>50.77923</AverageLatitudeCache> 
+<AverageLongitudeCache>7.99592</AverageLongitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName> 
+<ParsingMethod>Coordinates</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>8.008</Location1> 
+<Location2>50.7794</Location2> 
+<LocationAccuracy>96 m</LocationAccuracy> 
+<DeterminationDate>6/6/2013 12:00:00 AM</DeterminationDate> 
+<AverageAltitudeCache>324</AverageAltitudeCache> 
+<AverageLatitudeCache>50.77950</AverageLatitudeCache> 
+<AverageLongitudeCache>8.00800</AverageLongitudeCache> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, S.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>S.</FirstName> 
+<FirstNameAbbreviation>S.</FirstNameAbbreviation> 
+</Agent>
+<CollectorsNumber>1743</CollectorsNumber> 
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Julidae</FamilyCache> 
+<OrderCache>Diplopoda</OrderCache> 
+<TaxonomicGroup>arthropod</TaxonomicGroup> 
+<LifeStage>adult</LifeStage> 
+<Gender>Male</Gender> 
+<NumberOfUnits>1</NumberOfUnits> 
+<Circumstances>natural</Circumstances> 
+<Identifications>
+<Identification>
+<VernacularTerm>Gepunkteter Schnurfüsser</VernacularTerm> 
+<TaxonomicName>Cylindroiulus punctatus</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Cylindroiulus</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>punctatus</SpeciesEpithet> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+<ResponsibleName>Depositor, K.</ResponsibleName> 
+<Agent>
+<SecondName>Depositor</SecondName> 
+<FirstName>K.</FirstName> 
+<FirstNameAbbreviation>K.</FirstNameAbbreviation> 
+</Agent>
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner /> 
+<CollectionName>Section Myriapoda</CollectionName> 
+<MaterialCategory>specimen</MaterialCategory> 
+<StorageLocation>arthropod</StorageLocation> 
+<Stock>1</Stock> 
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>19</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>223852694</CollectionSpecimenID> 
+<AccessionNumber>MYR 20120006</AccessionNumber> 
+<AccessionDateCategory>system</AccessionDateCategory> 
+<LabelTitle>Lot 1</LabelTitle> 
+<Version>1</Version> 
+<CollectionEventID>37250</CollectionEventID> 
+<AccessionDateCategory>system</AccessionDateCategory> 
+<LabelTitle>Lot 1</LabelTitle> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionMonth>11</CollectionMonth> 
+<CollectionYear>2012</CollectionYear> 
+<CollectionDateCategory>actual</CollectionDateCategory> 
+<LocalityDescription>Nordrhein-Westfalen, Neunkirchen, Hellerberg</LocalityDescription> 
+<HabitatDescription>Leichter SE Hang mit kurzen Eichen, Hasel und Birken</HabitatDescription> 
+<CollectingMethod>handcollecting</CollectingMethod> 
+<CountryCache>Deutschland</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Altitude (mNN)</LocalisationSystemName> 
+<ParsingMethod>Altitude</ParsingMethod> 
+<MeasurementUnit>m NN</MeasurementUnit> 
+<Location1>327</Location1> 
+<Location2 /> 
+<DeterminationDate>9/11/2012 12:00:00 AM</DeterminationDate> 
+<AverageAltitudeCache>327</AverageAltitudeCache> 
+<RecordingMethod>Google Earth</RecordingMethod> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Named area (DiversityGazetteer)</LocalisationSystemName> 
+<ParsingMethod>Gazetteer</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>Altenseelbach, North Rhine-Westphalia, Germany</Location1> 
+<Location2 /> 
+<LocationAccuracy>96 m</LocationAccuracy> 
+<LocationNotes>Source: ws.geonames.org</LocationNotes> 
+<DistanceToLocation>850.05 m</DistanceToLocation> 
+<DirectionToLocation>E</DirectionToLocation> 
+<AverageLatitudeCache>50.77923</AverageLatitudeCache> 
+<AverageLongitudeCache>7.99592</AverageLongitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName> 
+<ParsingMethod>Coordinates</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>8.008</Location1> 
+<Location2>50.7794</Location2> 
+<LocationAccuracy>96 m</LocationAccuracy> 
+<DeterminationDate>6/6/2013 12:00:00 AM</DeterminationDate> 
+<AverageAltitudeCache>324</AverageAltitudeCache> 
+<AverageLatitudeCache>50.77950</AverageLatitudeCache> 
+<AverageLongitudeCache>8.00800</AverageLongitudeCache> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, S.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>S.</FirstName> 
+<FirstNameAbbreviation>S.</FirstNameAbbreviation> 
+</Agent>
+<CollectorsNumber>1743</CollectorsNumber> 
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Julidae</FamilyCache> 
+<OrderCache>Diplopoda</OrderCache> 
+<TaxonomicGroup>arthropod</TaxonomicGroup> 
+<LifeStage>adult</LifeStage> 
+<Gender>Male</Gender> 
+<NumberOfUnits>1</NumberOfUnits> 
+<Circumstances>natural</Circumstances> 
+<Identifications>
+<Identification>
+<VernacularTerm>Gepunkteter Schnurfüsser</VernacularTerm> 
+<TaxonomicName>Cylindroiulus punctatus</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Cylindroiulus</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>punctatus</SpeciesEpithet> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+<ResponsibleName>Depositor, K.</ResponsibleName> 
+<Agent>
+<SecondName>Depositor</SecondName> 
+<FirstName>K.</FirstName> 
+<FirstNameAbbreviation>K.</FirstNameAbbreviation> 
+</Agent>
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner /> 
+<CollectionName>Section Myriapoda</CollectionName> 
+<MaterialCategory>specimen</MaterialCategory> 
+<StorageLocation>arthropod</StorageLocation> 
+<Stock>1</Stock> 
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>20</Counter> 
+<CollectionSpecimen>
+<CollectionSpecimenID>10000376</CollectionSpecimenID> 
+<AccessionNumber>TIS-19001</AccessionNumber> 
+<DepositorsName>Donator, D.</DepositorsName> 
+<DepositorsAccessionNumber>1352</DepositorsAccessionNumber> 
+<Version>5</Version> 
+<CollectionEventID>35521</CollectionEventID> 
+<DepositorsName>Donator, D.</DepositorsName> 
+<DepositorsAccessionNumber>1352</DepositorsAccessionNumber> 
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>2/24/2011</CollectionDate> 
+<CollectionDay>24</CollectionDay> 
+<CollectionMonth>2</CollectionMonth> 
+<CollectionYear>2011</CollectionYear> 
+<CollectionDateSupplement>24.02.2011</CollectionDateSupplement> 
+<LocalityDescription>Isle of Wight, St. Catherines</LocalityDescription> 
+<CountryCache>Großbritannien</CountryCache> 
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Named area (DiversityGazetteer)</LocalisationSystemName> 
+<ParsingMethod>Gazetteer</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>Sankt Augustin, Rhein-Sieg-Kreis, Nordrhein-Westfalen, Germany</Location1> 
+<Location2>http://id.snsb.info/Gazetteer/169116</Location2> 
+<AverageLatitudeCache>50.77</AverageLatitudeCache> 
+<AverageLongitudeCache>7.18667</AverageLongitudeCache> 
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName> 
+<ParsingMethod>Coordinates</ParsingMethod> 
+<MeasurementUnit /> 
+<Location1>12, 3489</Location1> 
+<Location2>23,5947</Location2> 
+<AverageLatitudeCache>50.5947</AverageLatitudeCache> 
+<AverageLongitudeCache>-1.20679</AverageLongitudeCache> 
+<RecordingMethod>Geography API Open Street Map</RecordingMethod> 
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Collector, D.</CollectorsName> 
+<Agent>
+<SecondName>Collector</SecondName> 
+<FirstName>D.</FirstName> 
+<FirstNameAbbreviation>D.</FirstNameAbbreviation> 
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Schendylidae</FamilyCache> 
+<TaxonomicGroup>arthropod</TaxonomicGroup> 
+<HierarchyCache>Chilopoda</HierarchyCache> 
+<Identifications>
+<Identification>
+<TaxonomicName>Schendyla nemorensis</TaxonomicName> 
+<Taxon>
+<TaxonPart>
+<Genus>Schendyla</Genus> 
+<Rank>sp.</Rank> 
+<SpeciesEpithet>nemorensis</SpeciesEpithet> 
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier /> 
+<QualifierText /> 
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner /> 
+<PreparationMethod>95% Ethanol</PreparationMethod> 
+<CollectionName /> 
+<MaterialCategory>preserved specimen</MaterialCategory> 
+<StorageLocation>Schendyla nemorensis</StorageLocation> 
+</SpecimenPart>
+</SpecimenParts>
+<Relations>
+<Relation>
+<RelatedSpecimenDisplayText>http://www.boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAJ3358</RelatedSpecimenDisplayText> 
+<RelationType>Public database</RelationType> 
+<RelatedSpecimenDescription>BOLD Process ID</RelatedSpecimenDescription> 
+</Relation>
+</Relations>
+<UpdateUserAndDate>
+<User>
+<UserName /> 
+</User>
+<Date>
+<Year>2014</Year> 
+<Month>10</Month> 
+<Day>6</Day> 
+</Date>
+</UpdateUserAndDate>
+</Label>
+</LabelList>
+</LabelPrint>
