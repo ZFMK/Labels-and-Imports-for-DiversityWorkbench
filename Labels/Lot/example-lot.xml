@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LabelPrint>
+<Report>
+<Title />
+<ProjectTitle>ICH</ProjectTitle>
+<User />
+<Date>12/11/2014</Date>
+</Report>
+<LabelList>
+<Label>
+<Counter>1</Counter>
+<CollectionSpecimen>
+	<CollectionSpecimenID>223588783</CollectionSpecimenID>
+	<AccessionNumber>ICH-000006</AccessionNumber>
+	<DepositorsName>Sammlung A. Koenig</DepositorsName>
+	<AdditionalNotes>ok x</AdditionalNotes>
+	<Version>1</Version>
+	<CollectionEventID>129484</CollectionEventID>
+	<DepositorsName>Sammlung A. Koenig</DepositorsName>
+	<AdditionalNotes>ok x</AdditionalNotes>
+	<DataWithholdingReason>withhold</DataWithholdingReason>
+	</CollectionSpecimen>
+<CollectionEvent>
+	<CollectionDate>3/29/1910</CollectionDate>
+	<CollectionDay>29</CollectionDay>
+	<CollectionMonth>3</CollectionMonth>
+	<CollectionYear>1910</CollectionYear>
+	<CollectionDateSupplement>29.03.1910</CollectionDateSupplement>
+	<LocalityDescription>Africa,Egypt, Sudan: Tanfikia TawfikiaSudan</LocalityDescription>
+	<CountryCache>Egypt</CountryCache>
+</CollectionEvent>
+<Collectors>
+	<Collector>
+		<CollectorsName>A. Koenig</CollectorsName>
+		<Agent>
+			<SecondName>A. Koenig</SecondName>
+		</Agent>
+	</Collector>
+</Collectors>
+<Units>
+	<MainUnit>
+		<TaxonomicGroup>fish</TaxonomicGroup>
+		<Identifications>
+			<Identification>
+				<TaxonomicName>galilaeus</TaxonomicName>
+				<Taxon>
+					<TaxonPart>
+						<Genus>galilaeus</Genus>
+						<Rank>gen.</Rank>
+					</TaxonPart>
+				</Taxon>
+				<IdentificationQualifier />
+				<QualifierText />
+				<ResponsibleName>A. Koenig</ResponsibleName>
+				<Agent>
+					<SecondName>A. Koenig</SecondName>
+				</Agent>
+			</Identification>
+		</Identifications>
+	</MainUnit>
+</Units>
+<UpdateUserAndDate>
+<User>
+<UserName />
+</User>
+<Date>
+<Year>2014</Year>
+<Month>4</Month>
+<Day>12</Day>
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>2</Counter>
+<CollectionSpecimen>
+<CollectionSpecimenID>223588784</CollectionSpecimenID>
+<AccessionNumber>ICH-000007</AccessionNumber>
+<LabelTitle>Lot julis1</LabelTitle>
+<AdditionalNotes>ok x</AdditionalNotes>
+<Version>4</Version>
+<CollectionEventID>129485</CollectionEventID>
+<LabelTitle>Lot julis1</LabelTitle>
+<AdditionalNotes>ok x</AdditionalNotes>
+<DataWithholdingReason>withhold</DataWithholdingReason>
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionMonth>2</CollectionMonth>
+<CollectionYear>1889</CollectionYear>
+<CollectionDateSupplement>Februar 1889</CollectionDateSupplement>
+<LocalityDescription>Europe, Spain, Teneriffa, Puerto Orotava, Tümpel La Ortova</LocalityDescription>
+<CountryCache>Spain</CountryCache>
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName>
+<ParsingMethod>Coordinates</ParsingMethod>
+<MeasurementUnit />
+<Location1>-16.517446518</Location1>
+<Location2>28.380111694</Location2>
+<LocationAccuracy>34 m</LocationAccuracy>
+<LocationNotes>La Orotava (GeoNet Names (NIMA):72755878:populated places), 28.3897392, 16.5258407, 1541</LocationNotes>
+<AverageLatitudeCache>28.38011</AverageLatitudeCache>
+<AverageLongitudeCache>-16.51745</AverageLongitudeCache>
+</Localisation>
+</CollectionEventLocalisations>
+<Units>
+<MainUnit>
+<FamilyCache>Labridae 411</FamilyCache>
+<TaxonomicGroup>fish</TaxonomicGroup>
+<Identifications>
+<Identification>
+<TaxonomicName>Julis pavo var. unimaculatus</TaxonomicName>
+<Taxon>
+<TaxonPart>
+<Genus>Julis</Genus>
+<SpeciesEpithet>pavo</SpeciesEpithet>
+<Rank>var.</Rank>
+<InfraspecificEpithet>unimaculatus</InfraspecificEpithet>
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier />
+<QualifierText />
+<ResponsibleName>Dr. A. Anonymous</ResponsibleName>
+<Agent>
+<SecondName>A. Anonymous</SecondName>
+<Title>Dr.</Title>
+</Agent>
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<UpdateUserAndDate>
+<User>
+<UserName>Technician, T.,</UserName>
+<UserSecondName>Technician</UserSecondName>
+<UserFirstName>T.,</UserFirstName>
+<UserInvers>T., Technician</UserInvers>
+</User>
+<Date>
+<Year>2014</Year>
+<Month>11</Month>
+<Day>17</Day>
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>3</Counter>
+<CollectionSpecimen>
+<CollectionSpecimenID>223588785</CollectionSpecimenID>
+<AccessionNumber>ICH-000008</AccessionNumber>
+<LabelTitle>Lot julis1</LabelTitle>
+<AdditionalNotes>ok x</AdditionalNotes>
+<Version>3</Version>
+<CollectionEventID>129486</CollectionEventID>
+<LabelTitle>Lot julis1</LabelTitle>
+<AdditionalNotes>ok x</AdditionalNotes>
+<DataWithholdingReason>withhold</DataWithholdingReason>
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionMonth>2</CollectionMonth>
+<CollectionYear>1889</CollectionYear>
+<CollectionDateSupplement>Februar 1889</CollectionDateSupplement>
+<LocalityDescription>Europe, Spain, Teneriffa, Puerto Orotava, Tümpel La Ortova</LocalityDescription>
+<CountryCache>Spain</CountryCache>
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName>
+<ParsingMethod>Coordinates</ParsingMethod>
+<MeasurementUnit />
+<Location1>16°31'33.03 W</Location1>
+<Location2>28°23'23.06 N</Location2>
+<LocationNotes>La Orotava (GeoNet Names (NIMA):72755878:populated places), 28.3897392, 16.5258407, 1541</LocationNotes>
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Dr. A. Anonymous</CollectorsName>
+<Agent>
+<SecondName>A. Anonymous</SecondName>
+<Title>Dr.</Title>
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Labridae 411</FamilyCache>
+<TaxonomicGroup>fish</TaxonomicGroup>
+<Identifications>
+<Identification>
+<TaxonomicName>Julis/ Diplodus pavo var. Unimaculatus/ vulgaris</TaxonomicName>
+<Taxon>
+<TaxonPart>
+<Genus>Julis/</Genus>
+<AuthorsGenus>Diplodus</AuthorsGenus>
+<SpeciesEpithet>pavo</SpeciesEpithet>
+<Rank>var.</Rank>
+<AuthorsSpecies>Unimaculatus/</AuthorsSpecies>
+<InfraspecificEpithet>vulgaris</InfraspecificEpithet>
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier />
+<QualifierText />
+<ResponsibleName>Dr. A. Anonymous</ResponsibleName>
+<Agent>
+<SecondName>A. Anonymous</SecondName>
+<Title>Dr.</Title>
+</Agent>
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<UpdateUserAndDate>
+<User>
+<UserName>Technician, T.,</UserName>
+<UserSecondName>Technician</UserSecondName>
+<UserFirstName>T.,</UserFirstName>
+<UserInvers>T., Technician</UserInvers>
+</User>
+<Date>
+<Year>2014</Year>
+<Month>11</Month>
+<Day>17</Day>
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>4</Counter>
+<CollectionSpecimen>
+<CollectionSpecimenID>223588786</CollectionSpecimenID>
+<AccessionNumber>ICH-000009</AccessionNumber>
+<DepositorsAccessionNumber>1212</DepositorsAccessionNumber>
+<AdditionalNotes>ok x</AdditionalNotes>
+<Version>6</Version>
+<CollectionEventID>129487</CollectionEventID>
+<DepositorsAccessionNumber>1212</DepositorsAccessionNumber>
+<AdditionalNotes>ok x</AdditionalNotes>
+<DataWithholdingReason>withhold</DataWithholdingReason>
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDateSupplement>Februar 1889</CollectionDateSupplement>
+<LocalityDescription>Europe, Spain, Teneriffa, Puerto Orotava, Tümpel La Ortova</LocalityDescription>
+<CountryCache>Spain</CountryCache>
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Gauss-Krüger coordinates</LocalisationSystemName>
+<ParsingMethod>GK</ParsingMethod>
+<MeasurementUnit />
+<Location1>-16,5277020485293</Location1>
+<Location2>28,3885140957715</Location2>
+<LocationNotes>WGS84</LocationNotes>
+<AverageLatitudeCache>0</AverageLatitudeCache>
+<AverageLongitudeCache>0</AverageLongitudeCache>
+</Localisation>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName>
+<ParsingMethod>Coordinates</ParsingMethod>
+<MeasurementUnit />
+<Location1>-16.517446518</Location1>
+<Location2>28.380149841</Location2>
+<LocationAccuracy>17 m</LocationAccuracy>
+<LocationNotes>La Orotava (GeoNet Names (NIMA):72755878:populated places), 28.3897392, 16.5258407, 1541</LocationNotes>
+<AverageLatitudeCache>28.38015</AverageLatitudeCache>
+<AverageLongitudeCache>-16.51745</AverageLongitudeCache>
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Dr. A. Anonymous</CollectorsName>
+<Agent>
+<SecondName>A. Anonymous</SecondName>
+<Title>Dr.</Title>
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Labridae 411</FamilyCache>
+<TaxonomicGroup>fish</TaxonomicGroup>
+<Identifications>
+<Identification>
+<TaxonomicName>Julis pavo var. unimaculatus</TaxonomicName>
+<Taxon>
+<TaxonPart>
+<Genus>Julis</Genus>
+<SpeciesEpithet>pavo</SpeciesEpithet>
+<Rank>var.</Rank>
+<InfraspecificEpithet>unimaculatus</InfraspecificEpithet>
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier />
+<QualifierText />
+<ResponsibleName>Dr. A. Anonymous</ResponsibleName>
+<Agent>
+<SecondName>A. Anonymous</SecondName>
+<Title>Dr.</Title>
+</Agent>
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<UpdateUserAndDate>
+<User>
+<UserName>technician</UserName>
+</User>
+<Date>
+<Year>2014</Year>
+<Month>11</Month>
+<Day>19</Day>
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>5</Counter>
+<CollectionSpecimen>
+<CollectionSpecimenID>223588602</CollectionSpecimenID>
+<AccessionNumber>ICH-000010</AccessionNumber>
+<LabelTitle>Lot julis1</LabelTitle>
+<Version>3</Version>
+<CollectionEventID>129311</CollectionEventID>
+<LabelTitle>Lot julis1</LabelTitle>
+<Problems>ok x</Problems>
+<DataWithholdingReason>withhold</DataWithholdingReason>
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionMonth>2</CollectionMonth>
+<CollectionYear>1889</CollectionYear>
+<CollectionDateSupplement>Februar 1889</CollectionDateSupplement>
+<LocalityDescription>Europe, Spain, Teneriffa, Puerto Orotava, Tümpel La Ortova</LocalityDescription>
+<CountryCache>Spain</CountryCache>
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName>
+<ParsingMethod>Coordinates</ParsingMethod>
+<MeasurementUnit />
+<Location1>16°31'33.03 W</Location1>
+<Location2>28°23'23.06 N</Location2>
+<LocationNotes>La Orotava (GeoNet Names (NIMA):72755878:populated places), 28.3897392, 16.5258407, 1541</LocationNotes>
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>Dr. A. Anonymous</CollectorsName>
+<Agent>
+<SecondName>A. Anonymous</SecondName>
+<Title>Dr.</Title>
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>PISCES</FamilyCache>
+<TaxonomicGroup>fish</TaxonomicGroup>
+<Gender>Labridae 411</Gender>
+<Identifications>
+<Identification>
+<TaxonomicName>juv.</TaxonomicName>
+<Taxon>
+<TaxonPart>
+<Genus>juv.</Genus>
+<Rank>gen.</Rank>
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier />
+<QualifierText />
+<ResponsibleName>Julis/ Pagellus pavo var. Unimaculatus/ acarne</ResponsibleName>
+<Agent>
+<SecondName>Julis/ Pagellus pavo var. Unimaculatus/ acarne</SecondName>
+</Agent>
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner />
+<PreparationMethod>Formaldehyd</PreparationMethod>
+<CollectionName>Section Pisces</CollectionName>
+<MaterialCategory>specimen</MaterialCategory>
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName>Technician, T.,</UserName>
+<UserSecondName>Technician</UserSecondName>
+<UserFirstName>T.,</UserFirstName>
+<UserInvers>T., Technician</UserInvers>
+</User>
+<Date>
+<Year>2014</Year>
+<Month>11</Month>
+<Day>17</Day>
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>6</Counter>
+<CollectionSpecimen>
+<CollectionSpecimenID>223588787</CollectionSpecimenID>
+<AccessionNumber>ICH-000011</AccessionNumber>
+<DepositorsName>Sammlung A. Koenig</DepositorsName>
+<AdditionalNotes>ok</AdditionalNotes>
+<InternalNotes>20.02.2008 Eschmeyer:Trigla obscura, Bloch and Schneider 1801 valid as Aspitrigla obscura (Bloch and Schneider 1901) and valid as Chelidonichthys obscurus (Bloch and Schneider 1801) / Linnaeus</InternalNotes>
+<Version>1</Version>
+<CollectionEventID>129488</CollectionEventID>
+<DepositorsName>Sammlung A. Koenig</DepositorsName>
+<AdditionalNotes>ok</AdditionalNotes>
+<DataWithholdingReason>withhold</DataWithholdingReason>
+<InternalNotes>20.02.2008 Eschmeyer:Trigla obscura, Bloch and Schneider 1801 valid as Aspitrigla obscura (Bloch and Schneider 1901) and valid as Chelidonichthys obscurus (Bloch and Schneider 1801) / Linnaeus</InternalNotes>
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>6/6/1885</CollectionDate>
+<CollectionDay>6</CollectionDay>
+<CollectionMonth>6</CollectionMonth>
+<CollectionYear>1885</CollectionYear>
+<CollectionDateSupplement>06.06.1885</CollectionDateSupplement>
+<LocalityDescription>Europe, Italy, Neapel, Küste Mittlere 'Landzunge' bis Landzunge unten links</LocalityDescription>
+<CountryCache>Italy</CountryCache>
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName>
+<ParsingMethod>Coordinates</ParsingMethod>
+<MeasurementUnit />
+<Location1>14°14'54.89 E</Location1>
+<Location2>40°49'42.09 N</Location2>
+<LocationNotes>Neapel (GeoNet Names (NIMA):68616323:countries, 2nd order divisions), 40.8283586, 14.2485809, 7465</LocationNotes>
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>A. Koenig</CollectorsName>
+<Agent>
+<SecondName>A. Koenig</SecondName>
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>Triglidae 310</FamilyCache>
+<TaxonomicGroup>fish</TaxonomicGroup>
+<Identifications>
+<Identification>
+<TaxonomicName>Trigla obscura Bloch and Schneider 1801</TaxonomicName>
+<Taxon>
+<TaxonPart>
+<Genus>Trigla</Genus>
+<Rank>sp.</Rank>
+<SpeciesEpithet>obscura</SpeciesEpithet>
+<AuthorsSpecies>Bloch and Schneider 1801</AuthorsSpecies>
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier />
+<QualifierText />
+<ResponsibleName>A. Koenig</ResponsibleName>
+<Agent>
+<SecondName>A. Koenig</SecondName>
+</Agent>
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<UpdateUserAndDate>
+<User>
+<UserName />
+</User>
+<Date>
+<Year>2014</Year>
+<Month>4</Month>
+<Day>12</Day>
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>7</Counter>
+<CollectionSpecimen>
+<CollectionSpecimenID>223588604</CollectionSpecimenID>
+<AccessionNumber>ICH-000012</AccessionNumber>
+<LabelTitle>Lot julis2</LabelTitle>
+<DepositorsName>Sammlung A. Koenig</DepositorsName>
+<AdditionalNotes>20.02.2008 Eschmeyer:Trigla obscura, Bloch and Schneider 1801 valid as Aspitrigla obscura (Bloch and Schneider 1901) and valid as Chelidonichthys obscurus (Bloch and Schneider 1801) / Linnaeus</AdditionalNotes>
+<Version>1</Version>
+<CollectionEventID>129313</CollectionEventID>
+<DepositorsName>Sammlung A. Koenig</DepositorsName>
+<AdditionalNotes>20.02.2008 Eschmeyer:Trigla obscura, Bloch and Schneider 1801 valid as Aspitrigla obscura (Bloch and Schneider 1901) and valid as Chelidonichthys obscurus (Bloch and Schneider 1801) / Linnaeus</AdditionalNotes>
+<Problems>ok x</Problems>
+<DataWithholdingReason>withhold</DataWithholdingReason>
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>6/6/1885</CollectionDate>
+<CollectionDay>6</CollectionDay>
+<CollectionMonth>6</CollectionMonth>
+<CollectionYear>1885</CollectionYear>
+<CollectionDateSupplement>06.06.1885</CollectionDateSupplement>
+<LocalityDescription>Europe, Italy, Neapel, Küste Mittlere 'Landzunge' bis Landzunge unten links</LocalityDescription>
+<CountryCache>Italy</CountryCache>
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName>
+<ParsingMethod>Coordinates</ParsingMethod>
+<MeasurementUnit />
+<Location1>14°14'54.89 E</Location1>
+<Location2>40°49'42.09 N</Location2>
+<LocationNotes>Neapel (GeoNet Names (NIMA):68616323:countries, 2nd order divisions), 40.8283586, 14.2485809, 7465</LocationNotes>
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>A. Koenig</CollectorsName>
+<Agent>
+<SecondName>A. Koenig</SecondName>
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>PISCES</FamilyCache>
+<TaxonomicGroup>fish</TaxonomicGroup>
+<Gender>Triglidae 310</Gender>
+<Identifications>
+<Identification>
+<TaxonomicName>juv.</TaxonomicName>
+<Taxon>
+<TaxonPart>
+<Genus>juv.</Genus>
+<Rank>gen.</Rank>
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier />
+<QualifierText />
+<ResponsibleName>Trigla obscura Bloch and Schneider 1801</ResponsibleName>
+<Agent>
+<SecondName>Trigla obscura Bloch and Schneider 1801</SecondName>
+</Agent>
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner />
+<PreparationMethod>Formaldehyd</PreparationMethod>
+<CollectionName>Section Pisces</CollectionName>
+<MaterialCategory>specimen</MaterialCategory>
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName />
+</User>
+<Date>
+<Year>2014</Year>
+<Month>4</Month>
+<Day>12</Day>
+</Date>
+</UpdateUserAndDate>
+</Label>
+<Label>
+<Counter>8</Counter>
+<CollectionSpecimen>
+<CollectionSpecimenID>223588605</CollectionSpecimenID>
+<AccessionNumber>ICH-000013</AccessionNumber>
+<LabelTitle>Lot julis2</LabelTitle>
+<DepositorsName>Sammlung A. Koenig</DepositorsName>
+<AdditionalNotes>20.02.2008 Eschmeyer:Trigla obscura, Bloch and Schneider 1801 valid as Aspitrigla obscura (Bloch and Schneider 1901) and valid as Chelidonichthys obscurus (Bloch and Schneider 1801) / Linnaeus</AdditionalNotes>
+<Version>1</Version>
+<CollectionEventID>129313</CollectionEventID>
+<DepositorsName>Sammlung A. Koenig</DepositorsName>
+<AdditionalNotes>20.02.2008 Eschmeyer:Trigla obscura, Bloch and Schneider 1801 valid as Aspitrigla obscura (Bloch and Schneider 1901) and valid as Chelidonichthys obscurus (Bloch and Schneider 1801) / Linnaeus</AdditionalNotes>
+<Problems>ok x</Problems>
+<DataWithholdingReason>withhold</DataWithholdingReason>
+</CollectionSpecimen>
+<CollectionEvent>
+<CollectionDate>6/6/1885</CollectionDate>
+<CollectionDay>6</CollectionDay>
+<CollectionMonth>6</CollectionMonth>
+<CollectionYear>1885</CollectionYear>
+<CollectionDateSupplement>06.06.1885</CollectionDateSupplement>
+<LocalityDescription>Europe, Italy, Neapel, Küste Mittlere 'Landzunge' bis Landzunge unten links</LocalityDescription>
+<CountryCache>Italy</CountryCache>
+</CollectionEvent>
+<CollectionEventLocalisations>
+<Localisation>
+<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName>
+<ParsingMethod>Coordinates</ParsingMethod>
+<MeasurementUnit />
+<Location1>14°14'54.89 E</Location1>
+<Location2>40°49'42.09 N</Location2>
+<LocationNotes>Neapel (GeoNet Names (NIMA):68616323:countries, 2nd order divisions), 40.8283586, 14.2485809, 7465</LocationNotes>
+</Localisation>
+</CollectionEventLocalisations>
+<Collectors>
+<Collector>
+<CollectorsName>A. Koenig</CollectorsName>
+<Agent>
+<SecondName>A. Koenig</SecondName>
+</Agent>
+</Collector>
+</Collectors>
+<Units>
+<MainUnit>
+<FamilyCache>PISCES</FamilyCache>
+<TaxonomicGroup>fish</TaxonomicGroup>
+<Gender>Triglidae 310</Gender>
+<Identifications>
+<Identification>
+<TaxonomicName>juv.</TaxonomicName>
+<Taxon>
+<TaxonPart>
+<Genus>juv.</Genus>
+<Rank>gen.</Rank>
+</TaxonPart>
+</Taxon>
+<IdentificationQualifier />
+<QualifierText />
+<ResponsibleName>Trigla obscura Bloch and Schneider 1801</ResponsibleName>
+<Agent>
+<SecondName>Trigla obscura Bloch and Schneider 1801</SecondName>
+</Agent>
+</Identification>
+</Identifications>
+</MainUnit>
+</Units>
+<SpecimenParts>
+<SpecimenPart>
+<CollectionOwner />
+<PreparationMethod>Formaldehyd</PreparationMethod>
+<CollectionName>Section Pisces</CollectionName>
+<MaterialCategory>specimen</MaterialCategory>
+</SpecimenPart>
+</SpecimenParts>
+<UpdateUserAndDate>
+<User>
+<UserName />
+</User>
+<Date>
+<Year>2014</Year>
+<Month>4</Month>
+<Day>12</Day>
+</Date>
+</UpdateUserAndDate>
+</Label>
+</LabelList>
+</LabelPrint>
