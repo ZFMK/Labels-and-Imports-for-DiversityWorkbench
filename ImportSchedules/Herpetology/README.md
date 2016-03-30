@@ -18,4 +18,4 @@ Data sheet for import
 
 
 
-##### Detailed Description of schedule for import of tab-separated text-file into DiversityCollection
+##### Detailed Description of schedule as pdf added
