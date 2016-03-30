@@ -22,5 +22,4 @@
 *.RTF	 diff=astextplain
 *.xml  diff=astextplain
 *.XML  diff=astextplain
-*.htm  diff=astextplain
-*.html diff=astextplain
+
