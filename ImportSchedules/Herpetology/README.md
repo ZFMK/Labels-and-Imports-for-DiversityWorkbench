@@ -18,4 +18,6 @@ Data sheet for import
 
 
 
-##### Detailed Description of schedule as pdf added
+
+[Detailed Description of Import schedule for Herpetology (pdf)](https://github.com/BKlasen/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Herpetology/Description_Collection_Sheet_Herpetology.pdf)
+
