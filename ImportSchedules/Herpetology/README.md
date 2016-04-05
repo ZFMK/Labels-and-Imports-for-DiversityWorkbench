@@ -15,4 +15,4 @@ Data sheet for import
 
 ![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/herp_example.png)
 
-
+[Detailed Description of Import Schedule (pdf)](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Herpetology/Description_Import_Schedule_Herpetology_ZFMK.pdf)
