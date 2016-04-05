@@ -19,4 +19,4 @@ Data sheet for import
 
 
 
-[Detailed Description of Import schedule for Herpetology (pdf)](https://github.com/BKlasen/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Herpetology/Description_Importscheme_Herpetology_ZFMK.pdf)
+[Detailed Description of Import schedule for Herpetology (pdf)](https://github.com/BKlasen/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Herpetology/Description_Import_Schedule_Herpetology_ZFMK.pdf)
