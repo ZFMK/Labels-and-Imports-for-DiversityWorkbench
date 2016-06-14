@@ -1,15 +1,18 @@
-﻿These import schemas allow the import of DNA samples of parasite fungi (Pucciniales) to existing voucher. 
-The host plant and the parasite fungi is already imported in DiversityCollection. The parasite fungi is saved as second Organism on top of the host plant. 
+These import schemas allow the import of DNA samples of parasite fungi (Pucciniales). 
 
-The import table includes the following information:
+Precondition:
+ * host plant and the parasite fungi is already imported in DiversityCollection (with one AccessionNumber)
+ * parasite fungi is saved as second Organism on top of the host plant
 
+
+The ![import table] (https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/GBOL_Rostpilze_barcodes_complemented_sample.txt) includes the following information:
  * Identifiers (e.g. VoucherID)
  * Identification of host plant and parasite fungi
  * Parameters regarding the amplifying and sequencing (e.g. barcode-sequence, primers of pcr and sequencing, trace links, sequencing center)
 
-These import schemas were created based on the original organization of the data. For a further successful use of this schema, please keep in mind that interface settings e.g. CollectionID, ProjectID, AnalysisID should be adapted to your installation, as well as other settings like prefixes, postfixes, splitters or filters.
+This import schema (![basis scheme, xml] (https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/01_Basis_scheme_for_import_of_barcode_analysis.xml)) was created based on the original organization of the data. For a further successful use of this schema, please keep in mind that interface settings e.g. CollectionID, ProjectID, AnalysisID, ParameterID should be adapted to your installation, as well as other settings like prefixes, postfixes, splitters or filters.
 
-The data was partly imported as two records. In case of a second forward or reverse trace file, you need to import these files with the second schema (02_Add_second_fwd_or_rev_trace.xml).
+The data was partly imported as two records. In case of a second forward or reverse trace file, you need to import these files with the second schema (![adding scheme, xml](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/02_Add_second_fwd_or_rev_trace.xml)).
 
 Furthermore you need to adapt the import scheme in case of a second or third parasite fungi on top of one host plant. Then you have to switch in the scheme the Attachment from AccessionNumber to IdentificationUnitID as shown below:
 
@@ -30,7 +33,7 @@ Preview of the DNA data:
  
   ![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/SMNKpuccGBOLcoll_DNA_data_preview_02.png)
   
-  
+ * Further explanations: ![pdf](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/Import%20der%20Barcodeanalysen%20f%C3%BCr%20GBOL%20Rostpilze.pdf)
 
 * Settings for the import of the DNA are described below: 
 
