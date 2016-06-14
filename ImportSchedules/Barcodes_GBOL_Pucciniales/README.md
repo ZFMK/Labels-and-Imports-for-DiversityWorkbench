@@ -161,7 +161,6 @@ Preview of the DNA data:
 
 
 
-
  * Settings for the second scheme to import a second forward or reverse trace file:
  
 
