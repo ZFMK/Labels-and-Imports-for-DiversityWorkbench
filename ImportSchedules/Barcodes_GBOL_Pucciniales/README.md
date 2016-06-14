@@ -35,7 +35,7 @@ Preview of the DNA data:
   
  * Further explanations: ![pdf](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/Import%20der%20Barcodeanalysen%20f%C3%BCr%20GBOL%20Rostpilze.pdf)
 
-* Settings for the import of the DNA are described below: 
+* Settings for the import of the DNA are described below (![as pdf](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/Settings_GBOL_Rostpilze_basis_scheme.pdf)): 
 
 <table cellspacing="2" cellpadding="0" border="0" width="1000" style="  font-size: 10pt; font-family: Arial; table-layout:fixed; overflow:scroll;"><colgroup><col width="30" /><col width="170" /><col width="200" /><col width="200" /><col width="200" /><col width="200" /></colgroup><tr><th bgcolor="#CCCCCC">Pos.</th><th bgcolor="#CCCCCC" align="left">Name</th><th bgcolor="#CCCCCC" align="left">Table</th><th bgcolor="#CCCCCC" align="left">Column</th><th width="200" bgcolor="#CCCCCC" align="left">Example</th><th width="200" bgcolor="#CCCCCC" align="left">Transformed</th></tr><tr bgcolor="#EEEEEE"><td align="center">0</td><td colspan="5">Beleg</td></tr><tr><td align="right" style="color: #008000; font-size: 18pt" /><td valign="top" align="right" colspan="2" bgcolor="#99CCFF">CollectionSpecimen.
 											</td><td valign="top" bgcolor="#FFFF00" style=" font-size: 10pt; font-family: Arial; color: green"><b>AccessionNumber</b></td><td valign="top" style="word-wrap: break-word; word-break: break-all;">KR-M-0003370</td><td valign="top" style="word-wrap: break-word; word-break: break-all;"></td></tr><tr bgcolor="#EEEEEE"><td align="center">1</td><td colspan="5">Gattung</td></tr><tr><td align="right" style="color: #008000; font-size: 18pt" /><td valign="top" align="right" colspan="2" bgcolor="#99CCFF">IdentificationUnit_2.
@@ -164,7 +164,7 @@ Preview of the DNA data:
 
 </hr></br>
 
- * Settings for the second scheme to import a second forward or reverse trace file:
+ * Settings for the second scheme to import a second forward or reverse trace file (![as pdf](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/Settings_GBOL_Rostpilze_adding_scheme.pdf))
  
 
 <table cellspacing="2" cellpadding="0" border="0" width="1000" style="  font-size: 10pt; font-family: Arial; table-layout:fixed; overflow:scroll;"><colgroup><col width="30" /><col width="170" /><col width="200" /><col width="200" /><col width="200" /><col width="200" /></colgroup><tr><th bgcolor="#CCCCCC">Pos.</th><th bgcolor="#CCCCCC" align="left">Name</th><th bgcolor="#CCCCCC" align="left">Table</th><th bgcolor="#CCCCCC" align="left">Column</th><th width="200" bgcolor="#CCCCCC" align="left">Example</th><th width="200" bgcolor="#CCCCCC" align="left">Transformed</th></tr><tr bgcolor="#EEEEEE"><td align="center">0</td><td colspan="5">Beleg</td></tr><tr><td align="right" style="color: #008000; font-size: 18pt" /><td valign="top" align="right" colspan="2" bgcolor="#99CCFF">CollectionSpecimen.
