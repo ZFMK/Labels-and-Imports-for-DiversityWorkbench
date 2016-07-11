@@ -5,37 +5,38 @@ Precondition:
  * parasite fungi is saved as second Organism on top of the host plant
 
 
-The ![import table] (https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/GBOL_Rostpilze_barcodes_complemented_sample.txt) includes the following information:
+The ![import table] (https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes_GBOL_Pucciniales/GBOL_Rostpilze_barcodes_complemented_sample.txt) includes the following information:
+
  * Identifiers (e.g. VoucherID)
  * Identification of host plant and parasite fungi
  * Parameters regarding the amplifying and sequencing (e.g. barcode-sequence, primers of pcr and sequencing, trace links, sequencing center)
 
-This import schema (![basis scheme, xml] (https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/01_Basis_scheme_for_import_of_barcode_analysis.xml)) was created based on the original organization of the data. For a further successful use of this schema, please keep in mind that interface settings e.g. CollectionID, ProjectID, AnalysisID, ParameterID should be adapted to your installation, as well as other settings like prefixes, postfixes, splitters or filters.
+This import schema (![basis scheme, xml] (https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes_GBOL_Pucciniales/01_Basis_scheme_for_import_of_barcode_analysis.xml)) was created based on the original organization of the data. For a further successful use of this schema, please keep in mind that interface settings e.g. CollectionID, ProjectID, AnalysisID, ParameterID should be adapted to your installation, as well as other settings like prefixes, postfixes, splitters or filters.
 
-The data was partly imported as two records. In case of a second forward or reverse trace file, you need to import these files with the second schema (![adding scheme, xml](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/02_Add_second_fwd_or_rev_trace.xml)).
+The data was partly imported as two records. In case of a second forward or reverse trace file, you need to import these files with the second schema (![adding scheme, xml](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes_GBOL_Pucciniales/02_Add_second_fwd_or_rev_trace.xml)).
 
 Furthermore you need to adapt the import scheme in case of a second or third parasite fungi on top of one host plant. Then you have to switch in the scheme the Attachment from AccessionNumber to IdentificationUnitID as shown below:
 
 
  * In the panel Attachment:
   
- ![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/SMNKpuccGBOLcoll_adding_by_IdentificationUnitID_01.png)
+ ![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes_GBOL_Pucciniales/SMNKpuccGBOLcoll_adding_by_IdentificationUnitID_01.png)
 
  * In the panel Specimen/Organism 2:
-![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/SMNKpuccGBOLcoll_adding_by_IdentificationUnitID_02.png)
+![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes_GBOL_Pucciniales/SMNKpuccGBOLcoll_adding_by_IdentificationUnitID_02.png)
 
  * In the panel Specimen/Organism 2:
-![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/SMNKpuccGBOLcoll_adding_by_IdentificationUnitID_03.png)
+![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes_GBOL_Pucciniales/SMNKpuccGBOLcoll_adding_by_IdentificationUnitID_03.png)
 
 Preview of the DNA data:
 
- ![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/SMNKpuccGBOLcoll_DNA_data_preview_01.png)
+ ![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes_GBOL_Pucciniales/SMNKpuccGBOLcoll_DNA_data_preview_01.png)
  
-  ![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/SMNKpuccGBOLcoll_DNA_data_preview_02.png)
+  ![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes_GBOL_Pucciniales/SMNKpuccGBOLcoll_DNA_data_preview_02.png)
   
- * Further explanations: ![pdf](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/Import%20der%20Barcodeanalysen%20f%C3%BCr%20GBOL%20Rostpilze.pdf)
+ * Further explanations: ![pdf](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes_GBOL_Pucciniales/Import%20der%20Barcodeanalysen%20f%C3%BCr%20GBOL%20Rostpilze.pdf)
 
-* Settings for the import of the DNA are described below (![as pdf](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/Settings_GBOL_Rostpilze_basis_scheme.pdf)): 
+* Settings for the import of the DNA are described below (![as pdf](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes_GBOL_Pucciniales/Settings_GBOL_Rostpilze_basis_scheme.pdf)): 
 
 <table cellspacing="2" cellpadding="0" border="0" width="1000" style="  font-size: 10pt; font-family: Arial; table-layout:fixed; overflow:scroll;"><colgroup><col width="30" /><col width="170" /><col width="200" /><col width="200" /><col width="200" /><col width="200" /></colgroup><tr><th bgcolor="#CCCCCC">Pos.</th><th bgcolor="#CCCCCC" align="left">Name</th><th bgcolor="#CCCCCC" align="left">Table</th><th bgcolor="#CCCCCC" align="left">Column</th><th width="200" bgcolor="#CCCCCC" align="left">Example</th><th width="200" bgcolor="#CCCCCC" align="left">Transformed</th></tr><tr bgcolor="#EEEEEE"><td align="center">0</td><td colspan="5">Beleg</td></tr><tr><td align="right" style="color: #008000; font-size: 18pt" /><td valign="top" align="right" colspan="2" bgcolor="#99CCFF">CollectionSpecimen.
 											</td><td valign="top" bgcolor="#FFFF00" style=" font-size: 10pt; font-family: Arial; color: green"><b>AccessionNumber</b></td><td valign="top" style="word-wrap: break-word; word-break: break-all;">KR-M-0003370</td><td valign="top" style="word-wrap: break-word; word-break: break-all;"></td></tr><tr bgcolor="#EEEEEE"><td align="center">1</td><td colspan="5">Gattung</td></tr><tr><td align="right" style="color: #008000; font-size: 18pt" /><td valign="top" align="right" colspan="2" bgcolor="#99CCFF">IdentificationUnit_2.
@@ -164,7 +165,7 @@ Preview of the DNA data:
 
 </hr></br>
 
- * Settings for the second scheme to import a second forward or reverse trace file (![as pdf](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/Barcodes_GBOL_Pucciniales/Settings_GBOL_Rostpilze_adding_scheme.pdf))
+ * Settings for the second scheme to import a second forward or reverse trace file (![as pdf](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes_GBOL_Pucciniales/Settings_GBOL_Rostpilze_adding_scheme.pdf))
  
 
 <table cellspacing="2" cellpadding="0" border="0" width="1000" style="  font-size: 10pt; font-family: Arial; table-layout:fixed; overflow:scroll;"><colgroup><col width="30" /><col width="170" /><col width="200" /><col width="200" /><col width="200" /><col width="200" /></colgroup><tr><th bgcolor="#CCCCCC">Pos.</th><th bgcolor="#CCCCCC" align="left">Name</th><th bgcolor="#CCCCCC" align="left">Table</th><th bgcolor="#CCCCCC" align="left">Column</th><th width="200" bgcolor="#CCCCCC" align="left">Example</th><th width="200" bgcolor="#CCCCCC" align="left">Transformed</th></tr><tr bgcolor="#EEEEEE"><td align="center">0</td><td colspan="5">Beleg</td></tr><tr><td align="right" style="color: #008000; font-size: 18pt" /><td valign="top" align="right" colspan="2" bgcolor="#99CCFF">CollectionSpecimen.
