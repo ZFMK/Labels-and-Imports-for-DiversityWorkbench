@@ -15,7 +15,7 @@
 |  94 | Barcode            |
 | 161 | Barcode_Analyse161 |
 
-![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/screenshot_analysis161.png)
+![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes/screenshot_analysis161.png)
 
 
 ### Scheme for Methods:
@@ -58,15 +58,12 @@
 
 ### Detailed Description of Import schedule
 
-![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/Description_Import_Barcodeanalyse_BOLD_to_DC.pdf
+![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes/Description_Import_Barcodeanalyse_BOLD_to_DC.pdf)
 
-
-![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/screenshot_method_barcode.png)
-![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/screenshot_method_sequencing.png)
-
+![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes/screenshot_method_barcode.png)
+![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes/screenshot_method_sequencing.png)
 
 ## Preview of data in DiversityCollection
 
-![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/screenshot_preview_data.png)
-
+![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/master/ImportSchedules/GBOL/Barcodes/screenshot_preview_data.png)
 
