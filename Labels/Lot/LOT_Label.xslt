@@ -26,7 +26,7 @@ function replace_str(str_text,str_replace,str_by){
 
 	<!-- Generate key of all Label Titles for printing out lot labels -->
 	<xsl:key name="Lots" match="CollectionSpecimen" use="LabelTitle"/>
-	
+
 	<!-- Tree fragment of all Lot Labels containing first and last Catalogue No. -->
 	<xsl:variable name="LotContent">
 		<xsl:for-each select="//CollectionSpecimen[generate-id(.)=generate-id(key('Lots', LabelTitle)[1])]">
@@ -61,7 +61,7 @@ function replace_str(str_text,str_replace,str_by){
 					.font_bold{font-weight:bold;}
 					.font_bold_italic{font-weight:bold;font-style:italic;}
 					.font_title{font-weight:bold;}
-					.font_barcode{font-family:'Bar-Code 39';bottom:0;position:absolute;right:2px;}
+					.font_barcode{font-family:'Bar-Code 39', 'Code 39';bottom:0;position:absolute;right:2px;}
 					.left{float:left}
 					.center{text-align:center}
 					.right{float:right;clear:right;}
