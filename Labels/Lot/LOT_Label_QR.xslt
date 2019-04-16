@@ -365,7 +365,7 @@ function replace_str(str_text,str_replace,str_by){
 					<p>
 						<xsl:choose>
 							<xsl:when test="./LocalisationSystemName = 'Coordinates WGS84' and ./CoordinatesDegMinSec">
-								<xsl:value-of select="concat('lat. ',format-number(./Location2,'#.####', 'eu'),', long. ',format-number(./Location1,'#.####', 'eu'))"/>
+								<xsl:value-of select="concat('lat. ',format-number(./Location2,'#.####'),', long. ',format-number(./Location1,'#.####'))"/>
 							</xsl:when>
 							<xsl:otherwise>
 								<xsl:value-of select="concat(./Location2, ', ', ./Location1)"/>

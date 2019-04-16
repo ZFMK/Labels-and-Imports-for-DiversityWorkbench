@@ -190,41 +190,50 @@ function replace_str(str_text,str_replace,str_by){
 			</span>
 		</p>
 
-		<xsl:if test="./Units/MainUnit/Identifications/Identification/ResponsibleName != ''">
-			<p>
-				det.
-				<xsl:if test="./Units/MainUnit/Identifications/Identification/Agent/FirstNameAbbreviation != ''">
-					<xsl:value-of select="./Units/MainUnit/Identifications/Identification/Agent/FirstName"/>
-					<xsl:text> </xsl:text>
-				</xsl:if>
-				<xsl:value-of select="./Units/MainUnit/Identifications/Identification/Agent/SecondName"/>
-			</p>
-		</xsl:if>
-
-		<xsl:for-each select="./SpecimenParts/SpecimenPart">
-			<xsl:if test="position()=1">
-				<xsl:if test="./PreparationMethod!= ''">
-					<p class="left">
-						<xsl:value-of select="concat('fix. ' , ./PreparationMethod)"/>
-					</p>
-				</xsl:if>
+		<p>
+			<xsl:if test="./Units/MainUnit/Identifications/Identification/ResponsibleName != ''">
+				<span class="left">
+					det.
+					<xsl:if test="./Units/MainUnit/Identifications/Identification/Agent/FirstNameAbbreviation != ''">
+						<xsl:value-of select="./Units/MainUnit/Identifications/Identification/Agent/FirstName"/>
+						<xsl:text> </xsl:text>
+					</xsl:if>
+					<xsl:value-of select="./Units/MainUnit/Identifications/Identification/Agent/SecondName"/>
+				</span><br />
 			</xsl:if>
-		</xsl:for-each>
 
-		<xsl:if test="./CollectionSpecimen/DepositorsName != '' or $PrintBarcode = 1">
-			<p>
-				<xsl:if test="./CollectionSpecimen/DepositorsName != ''">
-					<span class="left">
-						<xsl:value-of select="./CollectionSpecimen/DepositorsName"/>
-					</span>
-				</xsl:if>
-				<xsl:if test="$PrintBarcode = 1">
-					<span class="right font_barcode">
-						*<xsl:value-of select="./CollectionSpecimen/AccessionNumber"/>*
-					</span>
-				</xsl:if>
-			</p>
-		</xsl:if>
+			<xsl:if test="./CollectionSpecimen/PreparationMethod!= ''">
+				<span class="left">
+					<xsl:value-of select="concat('fix. ' , ./CollectionSpecimen/PreparationMethod)"/>
+				</span><br />
+			</xsl:if>
+
+
+			<xsl:if test="./CollectionSpecimen/DepositorsName != ''">
+				<span class="left">
+					<xsl:value-of select="./CollectionSpecimen/DepositorsName"/>
+				</span><br />
+			</xsl:if>
+			
+			<xsl:if test="$PrintBarcode = 1">
+				<span class="right font_barcode">
+					<xsl:if test="./QRcode/ImagePath != ''">
+						<xsl:element name="img">
+								<xsl:attribute name="src">
+									<xsl:value-of select="./QRcode/ImagePath"/>
+								</xsl:attribute>
+								<xsl:attribute name="align">right</xsl:attribute>
+								<xsl:attribute name="height">40</xsl:attribute>
+								<xsl:attribute name="width">40</xsl:attribute>
+						</xsl:element>
+						<br />
+					</xsl:if>
+					<span class="right">*<xsl:value-of select="./CollectionSpecimen/AccessionNumber"/>*</span>
+				</span>
+			</xsl:if>
+
+		</p>
+
 	</xsl:template>
 
 	<xsl:template name="TaxonPart">
@@ -352,15 +361,16 @@ function replace_str(str_text,str_replace,str_by){
 		</p>
 		<xsl:for-each select="./CollectionEventLocalisations/Localisation">
 			<xsl:if test="./ParsingMethod = 'Coordinates'">
-				<xsl:if test="./Location2 != '' or ./Location1 != ''">
+				<xsl:if test="./Location2 != '' and ./Location1 != ''">
 					<p>
-						<xsl:if test="./Location2 != ''">
-							<xsl:value-of select="./Location2"/>
-						</xsl:if>
-						<xsl:text>/</xsl:text>
-						<xsl:if test="./Location1 != ''">
-							<xsl:value-of select="./Location1"/>
-						</xsl:if>
+						<xsl:choose>
+							<xsl:when test="./LocalisationSystemName = 'Coordinates WGS84' and ./CoordinatesDegMinSec">
+								<xsl:value-of select="concat('lat. ',format-number(./Location2,'#.####'),', long. ',format-number(./Location1,'#.####'))"/>
+							</xsl:when>
+							<xsl:otherwise>
+								<xsl:value-of select="concat(./Location2, ', ', ./Location1)"/>
+							</xsl:otherwise>
+						</xsl:choose>
 					</p>
 				</xsl:if>
 			</xsl:if>
