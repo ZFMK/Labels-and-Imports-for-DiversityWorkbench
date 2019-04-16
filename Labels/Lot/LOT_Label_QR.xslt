@@ -19,6 +19,7 @@ function replace_str(str_text,str_replace,str_by){
 	<xsl:variable name="Cell_Width" select="100 div $No_Cells -2" />
 	<xsl:variable name="Cell_Height" select="200 * (2 div $No_Cells)" />
 	<xsl:variable name="Font_Size" select="10 * (2 div $No_Cells)"/>
+	<xsl:variable name="QR_Img_Size" select="120"/>
 
 	<xsl:variable name="BackgroundImage">https://biocase.zfmk.de/images/logo/Logo_ZFMK_Small.svg</xsl:variable>
 	<xsl:variable name="Space"> </xsl:variable>
@@ -57,6 +58,7 @@ function replace_str(str_text,str_replace,str_by){
 					@import url(http://biocase.zfmk.de/images/logo/font_barcode.css);
 					html,body{height:100%;width:100%}
 					body{padding:0;margin:0;font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:<xsl:value-of select="$Font_Size"/>pt}
+					img{left:0;margin:0}
 					p{clear:left;margin:0.1em 0;padding:0;width:100%}
 					.taxon_name{border-bottom:1px solid #000;border-top:1px solid #000;font-weight:bold;padding:0.3em 0;text-align:center}
 					.font_bold{font-weight:bold;}
@@ -80,12 +82,28 @@ function replace_str(str_text,str_replace,str_by){
 						position:relative;
 						width:<xsl:value-of select="$Cell_Width"/>%;
 					}
+					div.qr_cell{
+						background-color:#fff;
+						border:1px solid #aaa;
+						display:block;
+						float:left;
+						height:auto;
+						margin:0;
+						overflow:hidden;
+						padding:3px 7px;
+						position:relative;
+						width:auto;
+					}
 					.border_bottom{border-bottom:1px solid #000}
 					.breakafter{page-break-after:always; color: white}
 				</style>
 			</head>
 			<body>
-				<xsl:apply-templates select="LabelList/Label[substring(./CollectionSpecimen/LabelTitle, 1, 3)!= 'Lot']" mode="no_lot"/>
+				<xsl:apply-templates select="LabelList/Label[substring(./CollectionSpecimen/LabelTitle, 1, 3)!= 'Lot']" mode="no_lot">
+					<xsl:with-param name="Title">
+						<xsl:value-of select="./Report/Title"/>
+					</xsl:with-param>
+				</xsl:apply-templates>
 
 				<p class="breakafter">.</p>
 
@@ -94,13 +112,16 @@ function replace_str(str_text,str_replace,str_by){
 					<xsl:variable name="CollectionSpecimenID" select="./CollectionSpecimenID" />
 					<xsl:apply-templates select="$current/LabelList/Label[CollectionSpecimen/CollectionSpecimenID=$CollectionSpecimenID]" mode="has_lot">
 						<xsl:with-param name="CatNo">
-							<xsl:value-of select="./FirstCatNo"/>-<xsl:value-of select="./LastCatNo"/>
+							<xsl:value-of select="./FirstCatNo"/> - <xsl:value-of select="./LastCatNo"/>
 						</xsl:with-param>
 						<xsl:with-param name="ItemCount">
 							<xsl:value-of select="./LotCount"/>
 						</xsl:with-param>
+						<xsl:with-param name="Title">
+							<xsl:value-of select="$current/Report/Title"/>
+						</xsl:with-param>
 					</xsl:apply-templates>
-				</xsl:for-each>
+				</xsl:for-each>				
 			</body>
 		</html>
 	</xsl:template>
@@ -109,32 +130,52 @@ function replace_str(str_text,str_replace,str_by){
 	<xsl:template match="LabelList/Label" mode="has_lot">
 		<xsl:param name="CatNo"/>
 		<xsl:param name="ItemCount"/>
-		<div class="row">
-			<div class="cell">
-				<p style="margin-top:13px">
-					<span class="left">
-						<xsl:value-of select="./CollectionSpecimen/LabelTitle"/>
-					</span>
-					<span class="right">
-						<xsl:value-of select="./Units/MainUnit/FamilyCache"/>
-					</span>
-				</p>
-
-				<p class="taxon_name">
-					<xsl:for-each select="./Units/MainUnit/Identifications/Identification">
-						<xsl:if test="position()=1">
-							<xsl:for-each select="./Taxon/TaxonPart">
-								<xsl:call-template name="TaxonPart"/>
+		<xsl:param name="Title"/>
+		<xsl:choose>
+			<xsl:when test="$Title='QR'">
+				<xsl:if test="./QRcode/ImagePath != ''">
+					<div class="qr_cell center">
+						<xsl:element name="img">
+								<xsl:attribute name="src">
+									<xsl:value-of select="./QRcode/ImagePath"/>
+								</xsl:attribute>
+								<xsl:attribute name="height"><xsl:value-of select="$QR_Img_Size"/></xsl:attribute>
+								<xsl:attribute name="width"><xsl:value-of select="$QR_Img_Size"/></xsl:attribute>
+						</xsl:element>
+						<br/>
+						<span>Lot: <xsl:value-of select="$CatNo"/></span>
+					</div>
+				</xsl:if>
+			</xsl:when>
+			<xsl:otherwise>
+				<div class="row">
+					<div class="cell">
+						<p style="margin-top:13px">
+							<span class="left">
+								<xsl:value-of select="./CollectionSpecimen/LabelTitle"/>
+							</span>
+							<span class="right">
+								<xsl:value-of select="./Units/MainUnit/FamilyCache"/>
+							</span>
+						</p>
+		
+						<p class="taxon_name">
+							<xsl:for-each select="./Units/MainUnit/Identifications/Identification">
+								<xsl:if test="position()=1">
+									<xsl:for-each select="./Taxon/TaxonPart">
+										<xsl:call-template name="TaxonPart"/>
+									</xsl:for-each>
+								</xsl:if>
 							</xsl:for-each>
-						</xsl:if>
-					</xsl:for-each>
-				</p>
-				<p>
-						<xsl:value-of select="$CatNo"/>: <xsl:value-of select="$ItemCount"/> specimens
-				</p>
-				<xsl:call-template name="content"/>
-			</div>
-		</div>
+						</p>
+						<p>
+							<xsl:value-of select="$CatNo"/>: <xsl:value-of select="$ItemCount"/> specimens
+						</p>
+						<xsl:call-template name="content"/>
+					</div>
+				</div>
+			</xsl:otherwise>
+		</xsl:choose>
 
 		<xsl:if test="position() mod $PageBreak_After_Cells = 0">
 			<p class="breakafter">.</p>
@@ -143,29 +184,49 @@ function replace_str(str_text,str_replace,str_by){
 
 	<!-- Printout single labels -->
 	<xsl:template match="LabelList/Label" mode="no_lot">
-		<div class="row">
-			<div class="cell">
-				<p style="margin-top:13px">
-					<span class="left">
-						<xsl:value-of select="./CollectionSpecimen/AccessionNumber"/>
-					</span>
-					<span class="right">
-						<xsl:value-of select="./Units/MainUnit/FamilyCache"/>
-					</span>
-				</p>
-
-				<p class="taxon_name">
-					<xsl:for-each select="./Units/MainUnit/Identifications/Identification">
-						<xsl:if test="position()=1">
-							<xsl:for-each select="./Taxon/TaxonPart">
-								<xsl:call-template name="TaxonPart"/>
+		<xsl:param name="Title"/>
+		<xsl:choose>
+			<xsl:when test="$Title='QR'">
+				<xsl:if test="./QRcode/ImagePath != ''">
+					<div class="qr_cell center">
+						<xsl:element name="img">
+								<xsl:attribute name="src">
+									<xsl:value-of select="./QRcode/ImagePath"/>
+								</xsl:attribute>
+								<xsl:attribute name="height"><xsl:value-of select="$QR_Img_Size"/></xsl:attribute>
+								<xsl:attribute name="width"><xsl:value-of select="$QR_Img_Size"/></xsl:attribute>
+						</xsl:element>
+						<br/>
+						<span><xsl:value-of select="./QRcode/QRcode"/></span>
+					</div>
+				</xsl:if>
+			</xsl:when>
+			<xsl:otherwise>
+				<div class="row">
+					<div class="cell">
+						<p style="margin-top:13px">
+							<span class="left">
+								<xsl:value-of select="./CollectionSpecimen/AccessionNumber"/>
+							</span>
+							<span class="right">
+								<xsl:value-of select="./Units/MainUnit/FamilyCache"/>
+							</span>
+						</p>
+		
+						<p class="taxon_name">
+							<xsl:for-each select="./Units/MainUnit/Identifications/Identification">
+								<xsl:if test="position()=1">
+									<xsl:for-each select="./Taxon/TaxonPart">
+										<xsl:call-template name="TaxonPart"/>
+									</xsl:for-each>
+								</xsl:if>
 							</xsl:for-each>
-						</xsl:if>
-					</xsl:for-each>
-				</p>
-				<xsl:call-template name="content"/>
-			</div>
-		</div>
+						</p>
+						<xsl:call-template name="content"/>
+					</div>
+				</div>
+			</xsl:otherwise>
+		</xsl:choose>
 		<xsl:if test="position() mod $PageBreak_After_Cells = 0">
 			<p class="breakafter">.</p>
 		</xsl:if>
