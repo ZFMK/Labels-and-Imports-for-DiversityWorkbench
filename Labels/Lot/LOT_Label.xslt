@@ -20,7 +20,6 @@ function replace_str(str_text,str_replace,str_by){
 	<xsl:variable name="Cell_Height" select="200 * (2 div $No_Cells)" />
 	<xsl:variable name="Font_Size" select="10 * (2 div $No_Cells)"/>
 
-	<xsl:variable name="BackgroundImage_Fallback">http://biocase.zfmk.de/images/logo/zfmk_logo_small.png</xsl:variable>
 	<xsl:variable name="BackgroundImage">http://biocase.zfmk.de/images/logo/zfmk_logo_small.svg</xsl:variable>
 	<xsl:variable name="Space"> </xsl:variable>
 
@@ -69,7 +68,6 @@ function replace_str(str_text,str_replace,str_by){
 					div.cell{
 						background:url(<xsl:value-of select="$BackgroundImage"/>) no-repeat top center;
 						background-color:#fff;
-						background-image:url(<xsl:value-of select="$BackgroundImage_Fallback"/>);
 						border:1px solid #aaa;
 						display:block;
 						float:left;
@@ -217,17 +215,6 @@ function replace_str(str_text,str_replace,str_by){
 			
 			<xsl:if test="$PrintBarcode = 1">
 				<span class="right font_barcode">
-					<xsl:if test="./QRcode/ImagePath != ''">
-						<xsl:element name="img">
-								<xsl:attribute name="src">
-									<xsl:value-of select="./QRcode/ImagePath"/>
-								</xsl:attribute>
-								<xsl:attribute name="align">right</xsl:attribute>
-								<xsl:attribute name="height">40</xsl:attribute>
-								<xsl:attribute name="width">40</xsl:attribute>
-						</xsl:element>
-						<br />
-					</xsl:if>
 					<span class="right">*<xsl:value-of select="./CollectionSpecimen/AccessionNumber"/>*</span>
 				</span>
 			</xsl:if>
