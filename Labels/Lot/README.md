@@ -29,7 +29,7 @@ Preview:
 
 QR code only
 ==================
-- if "QR" is entered in the title field for the labels obly the QR code of the AccessionNumber is displayed
+- if "QR" is entered in the title field for the labels only the QR code of the AccessionNumber is displayed
 
 - in case of a lot, the first entry is used for the QR code
 
