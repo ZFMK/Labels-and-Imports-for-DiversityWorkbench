@@ -8,10 +8,9 @@ Bottle Box Label:
 * Large label (5 labels per page)
 * Barcode in lower right corner
 * Measurements (head length, etc.)
-* Merging of specimens from a lot container into one label (cmp. preview)
+* Merging of specimens from a lot container into one label
 
-Preview:
----------
+Note: ''Lot xxx'' has to be entered in the title field! (cf. screenshot)
 
 ![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/preview_lot_measurements_in_dc.png)
 
