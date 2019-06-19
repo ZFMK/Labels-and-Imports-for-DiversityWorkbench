@@ -1,14 +1,38 @@
-**Labels for Section Mammalia**
+Labels for Section Mammalia
+==================
+
 
 Bottle Box Label:
+---------
 
-* Large label (2x5 labels per page)
-* DIV-Layout
-* Logo (SVG with png fallback)
+* Large label (5 labels per page)
 * Barcode in lower right corner
+* Measurements (head length, etc.)
+* Merging of specimens from a lot container into one label (cmp. preview)
+
+Preview:
+---------
+
+![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/preview_lot_measurements_in_dc.png)
 
 Vial Label:
+---------
 
-* Small (4x28 labels per page) 
-* DIV-Layout
+* Small (4x28 labels per page)
 * Barcode in lower right corner
+* ZFMK logo in lower right corner
+
+![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/preview_vial_small_in_dc.png)
+
+Filecard:
+---------
+
+* Filecard two sided
+* Barcode in lower right corner
+* Measurements (head length, etc. on the back)
+* All parts with storage location
+* Lot number (if any)
+
+![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/preview_filecard_in_dc.png)
+
+
