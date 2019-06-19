@@ -22,7 +22,7 @@ Vial Label:
 * Barcode in lower right corner
 * ZFMK logo in lower right corner
 
-![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/preview_vial_small_in_dc.png)
+![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/preview_vial_in_dc.png)
 
 Filecard:
 ---------
