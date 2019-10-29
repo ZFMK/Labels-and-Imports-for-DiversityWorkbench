@@ -18,8 +18,8 @@ Vial Label:
 ---------
 
 * Small (4x28 labels per page)
-* Barcode in lower right corner
-* ZFMK logo in lower right corner
+* Barcode 90 degree counterclockwise rotated on the right
+* Print using Firefox
 
 ![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/preview_vial_in_dc.png)
 
