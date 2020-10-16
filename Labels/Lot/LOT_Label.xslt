@@ -20,7 +20,7 @@ function replace_str(str_text,str_replace,str_by){
 	<xsl:variable name="Cell_Height" select="200 * (2 div $No_Cells)" />
 	<xsl:variable name="Font_Size" select="10 * (2 div $No_Cells)"/>
 
-	<xsl:variable name="BackgroundImage">http://biocase.zfmk.de/images/logo/zfmk_logo_small.svg</xsl:variable>
+	<xsl:variable name="BackgroundImage">https://biocase.zfmk.de/logo/Logo_ZFMK_Small.svg</xsl:variable>
 	<xsl:variable name="Space"> </xsl:variable>
 
 	<!-- Generate key of all Label Titles for printing out lot labels -->
@@ -68,7 +68,7 @@ function replace_str(str_text,str_replace,str_by){
 					div.cell{
 						background:url(<xsl:value-of select="$BackgroundImage"/>) no-repeat top center;
 						background-color:#fff;
-						border:1px solid #aaa;
+						border:1px solid s#aaa;
 						display:block;
 						float:left;
 						height:<xsl:value-of select="$Cell_Height"/>px;
@@ -83,9 +83,11 @@ function replace_str(str_text,str_replace,str_by){
 				</style>
 			</head>
 			<body>
-				<xsl:apply-templates select="LabelList/Label[substring(./CollectionSpecimen/LabelTitle, 1, 3)!= 'Lot']" mode="no_lot"/>
-
-				<p class="breakafter">.</p>
+				<xsl:apply-templates select="LabelList/Label[substring(./CollectionSpecimen/LabelTitle, 1, 3)!= 'Lot']" mode="no_lot">
+					<xsl:with-param name="Position">
+						<xsl:value-of select="position()"/>
+					</xsl:with-param>
+				</xsl:apply-templates>
 
 				<xsl:variable name="current" select="." />
 				<xsl:for-each select="msxsl:node-set($LotContent)/Lot">
@@ -97,6 +99,9 @@ function replace_str(str_text,str_replace,str_by){
 						<xsl:with-param name="ItemCount">
 							<xsl:value-of select="./LotCount"/>
 						</xsl:with-param>
+						<xsl:with-param name="Position">
+							<xsl:value-of select="position()"/>
+						</xsl:with-param>
 					</xsl:apply-templates>
 				</xsl:for-each>
 			</body>
@@ -107,6 +112,7 @@ function replace_str(str_text,str_replace,str_by){
 	<xsl:template match="LabelList/Label" mode="has_lot">
 		<xsl:param name="CatNo"/>
 		<xsl:param name="ItemCount"/>
+		<xsl:param name="Position"/>
 		<div class="row">
 			<div class="cell">
 				<p style="margin-top:13px">
@@ -128,19 +134,20 @@ function replace_str(str_text,str_replace,str_by){
 					</xsl:for-each>
 				</p>
 				<p>
-						<xsl:value-of select="$CatNo"/>: <xsl:value-of select="$ItemCount"/> specimens
+					<xsl:value-of select="$CatNo"/>: <xsl:value-of select="$ItemCount"/> specimens
 				</p>
 				<xsl:call-template name="content"/>
 			</div>
 		</div>
 
-		<xsl:if test="position() mod $PageBreak_After_Cells = 0">
+		<xsl:if test="$Position mod $PageBreak_After_Cells = 0">
 			<p class="breakafter">.</p>
 		</xsl:if>
 	</xsl:template>
 
 	<!-- Printout single labels -->
 	<xsl:template match="LabelList/Label" mode="no_lot">
+		<xsl:param name="Position"/>
 		<div class="row">
 			<div class="cell">
 				<p style="margin-top:13px">
@@ -164,7 +171,7 @@ function replace_str(str_text,str_replace,str_by){
 				<xsl:call-template name="content"/>
 			</div>
 		</div>
-		<xsl:if test="position() mod $PageBreak_After_Cells = 0">
+		<xsl:if test="$Position mod $PageBreak_After_Cells = 0">
 			<p class="breakafter">.</p>
 		</xsl:if>
 	</xsl:template>

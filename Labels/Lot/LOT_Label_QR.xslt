@@ -21,7 +21,7 @@ function replace_str(str_text,str_replace,str_by){
 	<xsl:variable name="Font_Size" select="10 * (2 div $No_Cells)"/>
 	<xsl:variable name="QR_Img_Size" select="120"/>
 
-	<xsl:variable name="BackgroundImage">https://biocase.zfmk.de/images/logo/Logo_ZFMK_Small.svg</xsl:variable>
+	<xsl:variable name="BackgroundImage">https://biocase.zfmk.de/logo/Logo_ZFMK_Small.svg</xsl:variable>
 	<xsl:variable name="Space"> </xsl:variable>
 
 	<!-- Generate key of all Label Titles for printing out lot labels -->
@@ -103,9 +103,10 @@ function replace_str(str_text,str_replace,str_by){
 					<xsl:with-param name="Title">
 						<xsl:value-of select="./Report/Title"/>
 					</xsl:with-param>
+					<xsl:with-param name="Position">
+						<xsl:value-of select="position()"/>
+					</xsl:with-param>
 				</xsl:apply-templates>
-
-				<p class="breakafter">.</p>
 
 				<xsl:variable name="current" select="." />
 				<xsl:for-each select="msxsl:node-set($LotContent)/Lot">
@@ -120,6 +121,9 @@ function replace_str(str_text,str_replace,str_by){
 						<xsl:with-param name="Title">
 							<xsl:value-of select="$current/Report/Title"/>
 						</xsl:with-param>
+						<xsl:with-param name="Position">
+							<xsl:value-of select="position()"/>
+						</xsl:with-param>
 					</xsl:apply-templates>
 				</xsl:for-each>				
 			</body>
@@ -131,6 +135,7 @@ function replace_str(str_text,str_replace,str_by){
 		<xsl:param name="CatNo"/>
 		<xsl:param name="ItemCount"/>
 		<xsl:param name="Title"/>
+		<xsl:param name="Position"/>
 		<xsl:choose>
 			<xsl:when test="$Title='QR'">
 				<xsl:if test="./QRcode/ImagePath != ''">
@@ -177,7 +182,7 @@ function replace_str(str_text,str_replace,str_by){
 			</xsl:otherwise>
 		</xsl:choose>
 
-		<xsl:if test="position() mod $PageBreak_After_Cells = 0">
+		<xsl:if test="$Position mod $PageBreak_After_Cells = 0">
 			<p class="breakafter">.</p>
 		</xsl:if>
 	</xsl:template>
@@ -185,6 +190,7 @@ function replace_str(str_text,str_replace,str_by){
 	<!-- Printout single labels -->
 	<xsl:template match="LabelList/Label" mode="no_lot">
 		<xsl:param name="Title"/>
+		<xsl:param name="Position"/>
 		<xsl:choose>
 			<xsl:when test="$Title='QR'">
 				<xsl:if test="./QRcode/ImagePath != ''">
@@ -227,7 +233,7 @@ function replace_str(str_text,str_replace,str_by){
 				</div>
 			</xsl:otherwise>
 		</xsl:choose>
-		<xsl:if test="position() mod $PageBreak_After_Cells = 0">
+		<xsl:if test="$Position mod $PageBreak_After_Cells = 0">
 			<p class="breakafter">.</p>
 		</xsl:if>
 	</xsl:template>
