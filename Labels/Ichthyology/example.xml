@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LabelPrint>
+<Report>
+<Title />
+<ProjectTitle>ICH</ProjectTitle>
+<User />
+<Date>22/12/2020</Date>
+</Report>
+<LabelList>
+<Label>
+<Counter>1</Counter>
+<CollectionSpecimen>
+	<CollectionSpecimenID>223924801</CollectionSpecimenID>
+	<AccessionNumber>ICH-000014</AccessionNumber>
+	<AccessionNumberSpecimen>ICH-000014</AccessionNumberSpecimen>
+	<DepositorsName>Sammlung A. Koenig</DepositorsName>
+	<ExternalDatasourceID>19</ExternalDatasourceID>
+	<AccessionNumberPart>ICH-000014</AccessionNumberPart>
+	<MaterialCategory>preserved specimen</MaterialCategory>
+</CollectionSpecimen>
+<CollectionEvent>
+	<CollectionMonth>6</CollectionMonth>
+	<CollectionYear>1885</CollectionYear>
+	<CollectionDateSupplement>Juni 1885</CollectionDateSupplement>
+	<LocalityDescription>Neapel Fischmarkt bis zur linken Landzunge (Isoloa di Nisida)</LocalityDescription>
+	<CountryCache>Italy</CountryCache>
+</CollectionEvent>
+<CollectionEventLocalisations>
+	<Localisation>
+		<LocalisationSystemName>Coordinates WGS84</LocalisationSystemName>
+		<ParsingMethod>Coordinates</ParsingMethod>
+		<MeasurementUnit />
+		<Location1>14.240485</Location1>
+		<Location2>40.844</Location2>
+		<LocationNotes>Neapel (GeoNet Names (NIMA):68616323:countries 2nd order divisions) 40.8447229 14.2403411 7619</LocationNotes>
+		<AverageLatitudeCache>40.844</AverageLatitudeCache>
+		<AverageLongitudeCache>14.24049</AverageLongitudeCache>
+		<CoordinatesDegMinSec LatPrefix="N" LatSec="38.4" LatMin="50" LatDeg="40" LongPrefix="E" LongSec="25.746688843" LongMin="14" LongDeg="14" Longitude="14° 14' 26''" Latitude="40° 50' 38''" />
+	</Localisation>
+</CollectionEventLocalisations>
+<QRcode>
+	<QRcode>ICH-000014</QRcode>
+	<ImagePath>577384.png</ImagePath>
+</QRcode>
+<Collectors>
+	<Collector>
+		<CollectorsName>A. Koenig</CollectorsName>
+		<Agent>
+			<SecondName>Koenig</SecondName>
+			<FirstName>A.</FirstName>
+			<FirstNameAbbreviation>A.</FirstNameAbbreviation>
+		</Agent>
+	</Collector>
+</Collectors>
+<Units>
+	<MainUnit>
+		<FamilyCache>Triglidae</FamilyCache>
+		<OrderCache>Scorpaeniformes</OrderCache>
+		<TaxonomicGroup>fish</TaxonomicGroup>
+		<NumberOfUnits>1</NumberOfUnits>
+		<Identifications>
+			 <Identification>
+				<TaxonomicName>Trigla lyra Linnaeus 1758</TaxonomicName>
+				<Taxon>
+					 <TaxonPart>
+						<Genus>Trigla</Genus>
+						<Rank>sp.</Rank>
+						<SpeciesEpithet>lyra</SpeciesEpithet>
+						<AuthorsSpecies>Linnaeus 1758</AuthorsSpecies>
+					</TaxonPart>
+				</Taxon>
+				<IdentificationQualifier />
+				<QualifierText />
+				<ResponsibleName>A. Koenig</ResponsibleName>
+				<Agent>
+					<SecondName>Koenig</SecondName>
+					<FirstName>A.</FirstName>
+					<FirstNameAbbreviation>A.</FirstNameAbbreviation>
+				</Agent>
+			</Identification>
+		</Identifications>
+		<ExternalIdentifiers>
+			<ExternalIdentifier>
+				<Type>FamilyNumber (Pisces)</Type>
+				<Identifier>Triglidae 310</Identifier>
+				<URL />
+				<Notes />
+			</ExternalIdentifier>
+		</ExternalIdentifiers>
+	</MainUnit>
+</Units>
+</Label>
+</LabelList>
+</LabelPrint>
