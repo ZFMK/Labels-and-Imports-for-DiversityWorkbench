@@ -121,6 +121,9 @@ function replace_str(str_text,str_replace,str_by){
 							</span>
 							<span class="right">
 								<xsl:choose>
+									<xsl:when test="./CollectionSpecimen/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']">
+										<xsl:value-of select="./CollectionSpecimen/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']/Identifier"/>
+									</xsl:when>
 									<xsl:when test="./Units/MainUnit/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']">
 										<xsl:value-of select="./Units/MainUnit/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']/Identifier"/>
 									</xsl:when>
@@ -163,6 +166,9 @@ function replace_str(str_text,str_replace,str_by){
 							</span>
 							<span class="right">
 								<xsl:choose>
+									<xsl:when test="./CollectionSpecimen/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']">
+										<xsl:value-of select="./CollectionSpecimen/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']/Identifier"/>
+									</xsl:when>
 									<xsl:when test="./Units/MainUnit/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']">
 										<xsl:value-of select="./Units/MainUnit/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']/Identifier"/>
 									</xsl:when>
