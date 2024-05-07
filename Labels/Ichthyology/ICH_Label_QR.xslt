@@ -2,13 +2,6 @@
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:msxsl="urn:schemas-microsoft-com:xslt" extension-element-prefixes="msxsl">
-<msxsl:script implements-prefix="msxsl" language="javascript">
-<![CDATA[
-function replace_str(str_text,str_replace,str_by){
-     return str_text.replace(str_replace,str_by);
-}
-]]>
-</msxsl:script>
 	<xsl:output method="xml" encoding="utf-8"/>
 	<!--Printing options-->
 	<xsl:variable name="PrintBarcode">1</xsl:variable>
@@ -51,77 +44,55 @@ function replace_str(str_text,str_replace,str_by){
 
 	<!--Templates-->
 	<xsl:template match="/LabelPrint">
+		<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 		<html>
 			<head>
-				<xsl:comment>Transformed using <xsl:value-of select="system-property('xsl:version')"/> provided by <xsl:value-of select="system-property('xsl:vendor')"/></xsl:comment>
+				<xsl:comment>Transformed using XSLT ver. <xsl:value-of select="system-property('xsl:version')"/> provided by <xsl:value-of select="system-property('xsl:vendor')"/></xsl:comment>
 				<style type="text/css">
-					@import url(http://biocase.zfmk.de/images/logo/font_barcode.css);
 					html,body{height:100%;width:100%}
-					body{padding:0;margin:0;font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:<xsl:value-of select="$Font_Size"/>pt}
-					img{left:0;margin:0}
-					p{clear:left;margin:0.1em 0;padding:0;width:100%}
-					.taxon_name{border-bottom:1px solid #000;border-top:1px solid #000;font-weight:bold;padding:0.3em 0;text-align:center}
+					body{padding:0;
+						margin:0;
+						font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+						font-size:<xsl:value-of select="$Font_Size"/>pt}
 					.font_bold{font-weight:bold;}
 					.font_bold_italic{font-weight:bold;font-style:italic;}
 					.font_title{font-weight:bold;}
-					.font_barcode{font-family:'Bar-Code 39';bottom:0;position:absolute;right:2px}
-					.left{float:left}
-					.center{text-align:center}
-					.right{float:right;clear:right;}
-					.row{clear:left;height:<xsl:value-of select="$Cell_Height"/>px;margin:0;width:100%;}
+					.font_barcode{font-family:'Bar-Code 39', 'Code 39';bottom:0;position:absolute;right:2px;}
 					div.cell{
-						background:url(<xsl:value-of select="$BackgroundImage"/>) no-repeat top center;
-						background-color:#fff;
 						border:1px solid #aaa;
-						display:block;
-						float:left;
 						height:<xsl:value-of select="$Cell_Height"/>px;
 						margin:0;
 						overflow:hidden;
 						padding:3px 7px;
-						position:relative;
 						width:<xsl:value-of select="$Cell_Width"/>%;
 					}
-					div.qr_cell{
-						background-color:#fff;
-						border:1px solid #aaa;
-						display:block;
-						float:left;
-						height:auto;
-						margin:0;
-						overflow:hidden;
-						padding:3px 7px;
-						position:relative;
-						width:auto;
-					}
+					img{left:0;margin:0}
+					p{clear:left;margin:0.1em 0;padding:0;width:100%}
+					.taxon_name{border-bottom:1px solid #000;border-top:1px solid #000;font-weight:bold;padding:0.3em 0;text-align:center}
+					.left{float:left}
+					.center{text-align:center}
+					.right{float:right;clear:right}
+					.text-right{text-align:right}
 					.border_bottom{border-bottom:1px solid #000}
 					.breakafter{page-break-after:always; color: white}
-				</style>
+				</style>			
 			</head>
 			<body>
-				<xsl:apply-templates select="LabelList/Label[substring(./CollectionSpecimen/LabelTitle, 1, 3)!= 'Lot']" mode="no_lot">
-					<xsl:with-param name="Title">
-						<xsl:value-of select="./Report/Title"/>
-					</xsl:with-param>
-					<xsl:with-param name="Position">
-						<xsl:value-of select="position()"/>
-					</xsl:with-param>
-				</xsl:apply-templates>
+				<xsl:apply-templates select="LabelList/Label[substring(./CollectionSpecimen/LabelTitle, 1, 3)!= 'Lot']" mode="no_lot" />
+
+				<p class="breakafter">.</p>
 
 				<xsl:variable name="current" select="." />
 				<xsl:for-each select="msxsl:node-set($LotContent)/Lot">
 					<xsl:variable name="CollectionSpecimenID" select="./CollectionSpecimenID" />
 					<xsl:apply-templates select="$current/LabelList/Label[CollectionSpecimen/CollectionSpecimenID=$CollectionSpecimenID]" mode="has_lot">
 						<xsl:with-param name="CatNo">
-							<xsl:value-of select="./FirstCatNo"/> - <xsl:value-of select="./LastCatNo"/>
+							<xsl:value-of select="./FirstCatNo"/>-<xsl:value-of select="./LastCatNo"/>
 						</xsl:with-param>
 						<xsl:with-param name="ItemCount">
 							<xsl:value-of select="./LotCount"/>
 						</xsl:with-param>
-						<xsl:with-param name="Title">
-							<xsl:value-of select="$current/Report/Title"/>
-						</xsl:with-param>
-						<xsl:with-param name="Position">
+						<xsl:with-param name="Pos">
 							<xsl:value-of select="position()"/>
 						</xsl:with-param>
 					</xsl:apply-templates>
@@ -134,138 +105,104 @@ function replace_str(str_text,str_replace,str_by){
 	<xsl:template match="LabelList/Label" mode="has_lot">
 		<xsl:param name="CatNo"/>
 		<xsl:param name="ItemCount"/>
-		<xsl:param name="Title"/>
-		<xsl:param name="Position"/>
-		<xsl:choose>
-			<xsl:when test="$Title='QR'">
-				<xsl:if test="./QRcode/ImagePath != ''">
-					<div class="qr_cell center">
-						<xsl:element name="img">
-								<xsl:attribute name="src">
-									<xsl:value-of select="./QRcode/ImagePath"/>
-								</xsl:attribute>
-								<xsl:attribute name="height"><xsl:value-of select="$QR_Img_Size"/></xsl:attribute>
-								<xsl:attribute name="width"><xsl:value-of select="$QR_Img_Size"/></xsl:attribute>
-						</xsl:element>
-						<br/>
-						<span>Lot: <xsl:value-of select="$CatNo"/></span>
-					</div>
-				</xsl:if>
-			</xsl:when>
-			<xsl:otherwise>
-				<div class="row">
-					<div class="cell">
-						<p style="margin-top:13px">
-							<span class="left">
-								<xsl:value-of select="./CollectionSpecimen/LabelTitle"/>
-							</span>
-							<span class="right">
-								<xsl:choose>
-									<xsl:when test="./CollectionSpecimen/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']">
-										<xsl:value-of select="./CollectionSpecimen/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']/Identifier"/>
-									</xsl:when>
-									<xsl:when test="./Units/MainUnit/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']">
-										<xsl:value-of select="./Units/MainUnit/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']/Identifier"/>
-									</xsl:when>
-									<xsl:otherwise>
-										<xsl:value-of select="./Units/MainUnit/FamilyCache"/>
-									</xsl:otherwise>
-								</xsl:choose>
-							</span>
-						</p>
+		<xsl:param name="Pos"/>
 
-						<p class="taxon_name">
-							<xsl:for-each select="./Units/MainUnit/Identifications/Identification">
-								<xsl:if test="position()=1">
-									<xsl:for-each select="./Taxon/TaxonPart">
-										<xsl:call-template name="TaxonPart"/>
-									</xsl:for-each>
-								</xsl:if>
+		<div class="row">
+			<div class="cell">
+				<p style="margin-top:13px">
+					<span class="left">
+						<xsl:value-of select="./CollectionSpecimen/LabelTitle"/>
+					</span>
+					<span class="right">
+						<xsl:choose>
+							<xsl:when test="./CollectionSpecimen/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']">
+								<xsl:value-of select="./CollectionSpecimen/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']/Identifier"/>
+							</xsl:when>
+							<xsl:when test="./Units/MainUnit/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']">
+								<xsl:value-of select="./Units/MainUnit/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']/Identifier"/>
+							</xsl:when>
+							<xsl:otherwise>
+								<xsl:value-of select="./Units/MainUnit/FamilyCache"/>
+							</xsl:otherwise>
+						</xsl:choose>
+					</span>
+				</p>
+
+				<p class="taxon_name">
+					<xsl:for-each select="./Units/MainUnit/Identifications/Identification">
+						<xsl:if test="position()=1">
+							<xsl:for-each select="./Taxon/TaxonPart">
+								<xsl:call-template name="TaxonPart"/>
 							</xsl:for-each>
-						</p>
-						<p>
-							<xsl:value-of select="$CatNo"/>: <xsl:value-of select="$ItemCount"/> specimens
-						</p>
-						<xsl:call-template name="content"/>
-					</div>
-				</div>
-			</xsl:otherwise>
-		</xsl:choose>
+						</xsl:if>
+					</xsl:for-each>
+				</p>
+				<p>
+					<xsl:value-of select="$CatNo"/>: <xsl:value-of select="$ItemCount"/> specimens
+				</p>
+				<xsl:call-template name="content"/>
+			</div>
+		</div>
 
-		<xsl:if test="$Position mod $PageBreak_After_Cells = 0">
+		<xsl:if test="$Pos mod $PageBreak_After_Cells = 0">
 			<p class="breakafter">.</p>
 		</xsl:if>
 	</xsl:template>
 
 	<!-- Printout single labels -->
 	<xsl:template match="LabelList/Label" mode="no_lot">
-		<xsl:param name="Title"/>
-		<xsl:param name="Position"/>
-		<xsl:choose>
-			<xsl:when test="$Title='QR'">
-				<xsl:if test="./QRcode/ImagePath != ''">
-					<div class="qr_cell center">
-						<xsl:element name="img">
-								<xsl:attribute name="src">
-									<xsl:value-of select="./QRcode/ImagePath"/>
-								</xsl:attribute>
-								<xsl:attribute name="height"><xsl:value-of select="$QR_Img_Size"/></xsl:attribute>
-								<xsl:attribute name="width"><xsl:value-of select="$QR_Img_Size"/></xsl:attribute>
-						</xsl:element>
-						<br/>
-						<span><xsl:value-of select="./QRcode/QRcode"/></span>
-					</div>
-				</xsl:if>
-			</xsl:when>
-			<xsl:otherwise>
-				<div class="row">
-					<div class="cell">
-						<p style="margin-top:13px">
-							<span class="left">
-								<xsl:value-of select="./CollectionSpecimen/AccessionNumber"/>
-							</span>
-							<span class="right">
-								<xsl:choose>
-									<xsl:when test="./CollectionSpecimen/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']">
-										<xsl:value-of select="./CollectionSpecimen/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']/Identifier"/>
-									</xsl:when>
-									<xsl:when test="./Units/MainUnit/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']">
-										<xsl:value-of select="./Units/MainUnit/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']/Identifier"/>
-									</xsl:when>
-									<xsl:otherwise>
-										<xsl:value-of select="./Units/MainUnit/FamilyCache"/>
-									</xsl:otherwise>
-								</xsl:choose>
-							</span>
-						</p>
+		<div class="cell">
+			<p style="margin-top:13px">
+				<span class="left">
+					<xsl:value-of select="./CollectionSpecimen/AccessionNumber"/>
+				</span>
+				<span class="right">
+					<xsl:choose>
+						<xsl:when test="./Units/MainUnit/UnitIdentifier">
+							<xsl:value-of select="./Units/MainUnit/UnitIdentifier"/>
+						</xsl:when>
+						<xsl:when test="./CollectionSpecimen/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']">
+							<xsl:value-of select="./CollectionSpecimen/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']/Identifier"/>
+						</xsl:when>
+						<xsl:when test="./Units/MainUnit/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']">
+							<xsl:value-of select="./Units/MainUnit/ExternalIdentifiers/ExternalIdentifier[Type='FamilyNumber (Pisces)']/Identifier"/>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:value-of select="./Units/MainUnit/FamilyCache"/>
+						</xsl:otherwise>
+					</xsl:choose>
+				</span>
+			</p>
 
-						<p class="taxon_name">
-							<xsl:for-each select="./Units/MainUnit/Identifications/Identification">
-								<xsl:if test="position()=1">
-									<xsl:for-each select="./Taxon/TaxonPart">
-										<xsl:call-template name="TaxonPart"/>
-									</xsl:for-each>
-								</xsl:if>
-							</xsl:for-each>
-						</p>
-						<xsl:call-template name="content"/>
-					</div>
-				</div>
-			</xsl:otherwise>
-		</xsl:choose>
-		<xsl:if test="$Position mod $PageBreak_After_Cells = 0">
+			<p class="taxon_name">
+				<xsl:for-each select="./Units/MainUnit/Identifications/Identification">
+					<xsl:if test="position()=1">
+						<xsl:for-each select="./Taxon/TaxonPart">
+							<xsl:call-template name="TaxonPart"/>
+						</xsl:for-each>
+					</xsl:if>
+				</xsl:for-each>
+			</p>
+			<xsl:call-template name="content"/>
+		</div>
+		
+		<xsl:if test="position() mod $PageBreak_After_Cells = 0">
 			<p class="breakafter">.</p>
 		</xsl:if>
 	</xsl:template>
 
 	<!-- Content -->
 	<xsl:template name="content">
-		<xsl:param name="Title"/>
-		<xsl:param name="CatNo"/>
-		<xsl:param name="ItemCount"/>
-
-		<xsl:call-template name="Event"/>
-
+		<xsl:choose>
+			<xsl:when test="./CollectionEvent/CountryCache != ''">
+				<xsl:call-template name="Event"/>
+			</xsl:when>
+			<xsl:when test="./Units/MainUnit/Circumstances != ''">
+				<strong><xsl:value-of select="concat(Units/MainUnit/Circumstances, ': ')"/></strong>
+				<xsl:apply-templates select="Relations/Relation[RelationType='Child of']"/>
+			</xsl:when>
+		</xsl:choose>
+	
 		<p>
 			<span class="left">
 				<xsl:apply-templates select="Collectors"/>
@@ -291,19 +228,25 @@ function replace_str(str_text,str_replace,str_by){
 
 			<xsl:if test="./CollectionSpecimen/PreparationMethod!= ''">
 				<span class="left">
-					<xsl:value-of select="concat('fix. ' , ./CollectionSpecimen/PreparationMethod)"/>
+					<xsl:value-of select="concat('treat: ' , ./CollectionSpecimen/PreparationMethod)"/>
 				</span><br />
 			</xsl:if>
 
 
 			<xsl:if test="./CollectionSpecimen/DepositorsName != ''">
 				<span class="left">
+					<xsl:text>ex coll. </xsl:text>
 					<xsl:value-of select="./CollectionSpecimen/DepositorsName"/>
+					<xsl:if test="./CollectionSpecimen/DepositorsAccessionNumber != ''">
+						<xsl:text>: </xsl:text>
+						<xsl:value-of select="./CollectionSpecimen/DepositorsAccessionNumber"/>
+					</xsl:if>
 				</span><br />
 			</xsl:if>
 			
 			<xsl:if test="$PrintBarcode = 1">
 				<span class="right font_barcode">
+					<xsl:text> </xsl:text>
 					<xsl:if test="./QRcode/ImagePath != ''">
 						<xsl:element name="img">
 								<xsl:attribute name="src">
@@ -315,14 +258,16 @@ function replace_str(str_text,str_replace,str_by){
 						</xsl:element>
 						<br />
 					</xsl:if>
-					<span class="right">*<xsl:value-of select="./CollectionSpecimen/AccessionNumber"/>*</span>
 				</span>
 			</xsl:if>
 
 		</p>
-
 	</xsl:template>
 
+	<xsl:template match="Relations/Relation[RelationType='Child of']">
+		<xsl:value-of select="./RelatedSpecimenDisplayText"/>
+	</xsl:template>
+	
 	<xsl:template name="TaxonPart">
 		<xsl:if test="self::node()[HybridSeparator]">
 			<xsl:value-of select="concat(' ' , ./HybridSeparator, ' ')"/>
@@ -399,38 +344,51 @@ function replace_str(str_text,str_replace,str_by){
 	</xsl:template>
 
 	<xsl:template match="Collector">
-		<xsl:if test="./Agent/FirstNameAbbreviation != ''">
-			<xsl:value-of select="./Agent/FirstName"/>
-			<xsl:text> </xsl:text>
-		</xsl:if>
-		<xsl:value-of select="./Agent/SecondName"/>
-		<xsl:text> </xsl:text>
-		<xsl:apply-templates select="CollectorsNumber"/>
-		<xsl:if test="position()!= last()">, </xsl:if>
+		<xsl:value-of select="./CollectorsName"/>
+		<xsl:if test="position()!= last()">; </xsl:if>
 	</xsl:template>
 	<xsl:template match="CollectorsNumber">
+		<xsl:text> </xsl:text>
 		<xsl:value-of select="."/>
 	</xsl:template>
 
 	<xsl:template name="Event">
 		<p>
-			<xsl:if test="./CollectionEvent/CountryCache != ''">
-				<xsl:value-of select="./CollectionEvent/CountryCache"/>
-			</xsl:if>
+			<span class="left">
+				<strong><xsl:value-of select="./CollectionEvent/CountryCache"/></strong>
+				<xsl:for-each select="./CollectionEventLocalisations/Localisation">
+					<xsl:if test="./ParsingMethod = 'Gazetteer'">
+						<xsl:if test="./Location1!= '' and LocalisationSystemName='3. Named area (DiversityGazetteer)'">
+							<xsl:text>: </xsl:text>
+							<xsl:value-of select="./Location1"/>
+						</xsl:if>
+					</xsl:if>
+				</xsl:for-each>
+			<xsl:text> </xsl:text>
+			</span>
+			<span class="right">
+				<xsl:for-each select="./CollectionEventLocalisations/Localisation">
+					<xsl:choose>
+						<xsl:when test="./ParsingMethod = 'Gazetteer'">
+							<xsl:if test="./Location1!= '' and LocalisationSystemName='4. Named area (DiversityGazetteer)'">
+									<xsl:if test="./CollectionEvent/CountryCache != ''">
+										<xsl:text>: </xsl:text>
+									</xsl:if>
+									<xsl:value-of select="./Location1"/>
+							</xsl:if>
+						</xsl:when>
+					</xsl:choose>
+				</xsl:for-each>
+				<xsl:text> </xsl:text>
+			</span>
+		</p>
+		<p>
 			<xsl:if test="./CollectionEvent/LocalityDescription != ''">
-				<xsl:if test="./CollectionEvent/CountryCache != ''">
-					<xsl:text>, </xsl:text>
-				</xsl:if>
 				<xsl:value-of select="./CollectionEvent/LocalityDescription"/>
 			</xsl:if>
 			<xsl:for-each select="./CollectionEventLocalisations/Localisation">
 				<xsl:choose>
 					<xsl:when test="./ParsingMethod = 'SamplingPlot'">
-						<xsl:if test="./Location1!= ''">
-							<xsl:value-of select="concat(', ',./Location1)"/>
-						</xsl:if>
-					</xsl:when>
-					<xsl:when test="./ParsingMethod = 'Gazetteer'">
 						<xsl:if test="./Location1!= ''">
 							<xsl:value-of select="concat(', ',./Location1)"/>
 						</xsl:if>

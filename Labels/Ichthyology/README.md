@@ -3,7 +3,9 @@ Label for Section Ichthyology
 
 - Show content of **External Identifier** instead of Family in right upper corner (only for Type: `FamilyNumber (Pisces)`) 
 
-Based on LOT label:
+Print QR code: to activate check the box "Print QR code on label" and choose "AccessionNumber" from the dropdown
+
+Features:
 
 - Group specimens by the presence of **Lot xxxx** in *LabelTitle*
 
@@ -13,31 +15,12 @@ Based on LOT label:
 
 - First and last catalogue number and number of specimens shown
 
-Preview:
----------
-
 ![Preview](ICH_Label_QR.png)
 
+If something is entered in the "Circumstances" field of the organism and the country is missing, Circumstances is output instead of Event plus the content of any existing relation that is entered as a "Child of".
 
-LOT Label with QR code
-==================
-- same as above but with an QR code above the one dimensional CODE 39
+![Preview](1345689DC.png)
 
-- to activate check the box "Print QR code on label" and choose "AccessionNumber from the dropdown
-
-Preview:
----------
-
-![Preview](ICH_Label_QR.png)
+![Preview](1345689.png)
 
 
-QR code only
-==================
-- if "QR" is entered in the title field for the labels only the QR code of the AccessionNumber is displayed
-
-- in case of a lot, the first entry is used for the QR code
-
-Preview:
----------
-
-![Preview](https://github.com/ZFMK/Labels-and-Imports-for-DiversityWorkbench/blob/screenshots/preview/preview_lot_qr_only_in_dc_marked.png)
