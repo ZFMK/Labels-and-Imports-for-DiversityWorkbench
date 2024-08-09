@@ -1,7 +1,7 @@
 Label for Section Ichthyology
 =============================
 
-- Show content of **External Identifier** instead of Family in right upper corner (only for Type: `FamilyNumber (Pisces)`) 
+- Show content of **External Identifier** instead of Family in right upper corner (only for Type: `FamilyNumber (Pisces)`). Please note: the External Identifier must be attached to the organism, __not__ to the CollectionSpecimen!
 
 Print QR code: to activate check the box "Print QR code on label" and choose "AccessionNumber" from the dropdown
 
@@ -17,7 +17,7 @@ Features:
 
 ![Preview](ICH_Label_QR.png)
 
-If something is entered in the "Circumstances" field of the organism and the country is missing, Circumstances is output instead of Event plus the content of any existing relation that is entered as a "Child of".
+If something is entered in the "Circumstances" field of the organism and the country is missing or caontins 'N/A', Circumstances is output instead of Event plus the content of any existing relation that is entered as a "Child of".
 
 ![Preview](1345689DC.png)
 
