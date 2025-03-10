@@ -10,8 +10,8 @@
 	<xsl:variable name="PrintBarcode">1</xsl:variable>
 
 	<!--Page format-->
-	<xsl:variable name="No_Cells" select="2"/>
-	<xsl:variable name="PageBreak_After_Cells" select="6"/>
+	<xsl:variable name="No_Cells" select="1"/>
+	<xsl:variable name="PageBreak_After_Cells" select="2"/>
 	<xsl:variable name="Cell_Width" select="100 div $No_Cells -4" />
 	<xsl:variable name="Cell_Height" select="200 * (2 div $No_Cells)" />
 	<xsl:variable name="Font_Size" select="10 * (2 div $No_Cells)"/>
@@ -137,12 +137,30 @@
 					</span>
 				</p>
 
-				<xsl:for-each select="./Units/MainUnit/Identifications/Identification">
-					<xsl:if test="position()=1">
-						<xsl:call-template name="Identification"/>
-					</xsl:if>
-				</xsl:for-each>
-
+				<p class="taxon_name">
+					<xsl:for-each select="./Units/MainUnit/Identifications/Identification">
+						<xsl:if test="position()=1">
+							<xsl:if test="not(./Taxon/TaxonPart)">
+								<xsl:value-of select="./TaxonomicName"/>
+							</xsl:if>
+							<xsl:if test="./Taxon/TaxonPart">
+								<xsl:for-each select="./Taxon/TaxonPart">
+									<xsl:call-template name="TaxonPart">
+										<xsl:with-param name="ParamIdentificationQualifierText">
+											<xsl:value-of select="ancestor::Identification[1]/IdentificationQualifier"/>
+										</xsl:with-param>
+										<xsl:with-param name="ParamQualifierText">
+											<xsl:value-of select="ancestor::Taxon[1]/Qualifier"/>
+										</xsl:with-param>
+										<xsl:with-param name="ParamQualifierRank">
+											<xsl:value-of select="ancestor::Taxon[1]/QualifierRank"/>
+										</xsl:with-param>
+									</xsl:call-template>
+								</xsl:for-each>
+							</xsl:if>
+						</xsl:if>
+					</xsl:for-each>
+				</p>
 				<p>
 					<xsl:value-of select="$CatNo"/>: <xsl:value-of select="$ItemCount"/> specimens
 				</p>

@@ -10,9 +10,9 @@
 	<xsl:variable name="PrintBarcode">1</xsl:variable>
 
 	<!--Page format-->
-	<xsl:variable name="No_Cells" select="2"/>
-	<xsl:variable name="PageBreak_After_Cells" select="6"/>
-	<xsl:variable name="Cell_Width" select="100 div $No_Cells -5" />
+	<xsl:variable name="No_Cells" select="1"/>
+	<xsl:variable name="PageBreak_After_Cells" select="2"/>
+	<xsl:variable name="Cell_Width" select="100 div $No_Cells -4" />
 	<xsl:variable name="Cell_Height" select="200 * (2 div $No_Cells)" />
 	<xsl:variable name="Font_Size" select="10 * (2 div $No_Cells)"/>
 	<xsl:variable name="QR_Img_Size" select="120"/>
